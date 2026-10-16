@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Powerful Maps— GeoGuessr Maps</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Powerful Maps home">
+      <span class="brand-globe">✺</span>
+      <span>Powerful Maps</span>
+    </a>
+  </header>
+
+  <main class="page">
+    <section class="filters" aria-label="Map filters">
+      <label class="search-field">
+        <span>SEARCH</span>
+        <input id="searchInput" type="search" placeholder="Filter by name, country, code..." autocomplete="off">
+      </label>
+      <label class="filter-field">
+        <span>MIN LOCATIONS</span>
+        <select id="minLocations">
+          <option value="0">Any</option>
+          <option value="1000">1,000+</option>
+          <option value="1000">5,000+</option>
+          <option value="10000">10,000+</option>
+          <option value="10000">30,000+</option>
+          <option value="50000">50,000+</option>
+          <option value="50000">75,000+</option>
+          <option value="100000">100,000+</option>
+        </select>
+      </label>
+      <label class="filter-field">
+        <span>CATEGORY</span>
+        <select id="categoryFilter">
+          <option value="Any">Any</option>
+          <option value="World">World</option>
+          <option value="Country">Country</option>
+          <option value="Continent">Continent</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="table-wrap" aria-label="Maps directory">
+      <table>
+        <thead>
+          <tr>
+            <th class="name-col">NAME</th>
+            <th class="numeric">LOCATIONS</th>
+            <th>CATEGORY</th>
+            <th>SECTION</th>
+            <th>CONTINENT</th>
+            <th>COUNTRY</th>
+          </tr>
+        </thead>
+        <tbody id="mapsList"></tbody>
+        <tfoot>
+          <tr>
+            <td id="mapCount">11 maps</td>
+            <td class="numeric" id="totalLocations">—</td>
+            <td></td>
+            <td class="numeric" id="totalLikes">—</td>
+            <td class="numeric" id="totalPlays">—</td>
+          </tr>
+        </tfoot>
+      </table>
+      <div id="emptyState" class="empty-state" hidden>No maps match your filters.</div>
+    </section>
+    <p class="disclaimer">Demo data for layout preview. Replace it with data from your own map list or API.</p>
+  </main>
+<script src="js/map.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
