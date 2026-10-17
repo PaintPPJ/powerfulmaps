@@ -133,8 +133,24 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/669fc42c1d248092df0c5155"
   },
 
+  {
+    name: "A 0maxk World",
+    locations: 14778,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/675ea0ed056b483afcee240c"
+  },
 
-
+  {
+    name: "An Extraordinary World",
+    locations: 72850,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/5cd30a0d17e6fc441ceda867"
+  },
+  
   {
     name: "Gen 3 World",
     locations: 78348,
