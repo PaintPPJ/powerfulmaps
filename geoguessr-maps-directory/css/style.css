@@ -7,7 +7,7 @@
   --line: #292d34;
   --text: #f4f6f8;
   --muted: #8b939e;
-  --green: #28d89a;
+  --green: #FFD09E;
   --green-soft: rgba(40, 216, 154, .09);
 }
 
@@ -163,7 +163,7 @@ tbody td { height: 54px; }
   align-items: center;
   justify-content: center;
   color: var(--green);
-  border: 1px solid #21b985;
+  border: 1px solid #FFD09E;
   background: var(--green-soft);
   border-radius: 5px;
   font-size: 16px;
@@ -177,7 +177,7 @@ tbody td { height: 54px; }
 .tag {
   display: inline-block;
   color: var(--green);
-  border: 1px solid #1eb981;
+  border: 1px solid #FFD09E;
   background: rgba(40,216,154,.045);
   border-radius: 3px;
   padding: 4px 8px;
@@ -268,4 +268,24 @@ tfoot td:first-child { font-family: "Roboto Mono", monospace; }
   .filters .search-field {
     grid-column: 1 / -1;
   }
+}
+
+.map-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Map พิเศษ: ตัวอักษรสีฟ้า */
+.map-link.special-map-link {
+  color: #FFEE00;
+  text-decoration: underline;
+}
+
+/* สีเมื่อเอาเมาส์ชี้ */
+.map-link:hover {
+  color: #ffffff;
+}
+
+.map-link.special-map-link:hover {
+  color: #FFEE00;
 }

@@ -101,7 +101,9 @@ function renderMaps(data) {
     nameBox.className = "map-name";
 
     const icon = document.createElement("span");
-    icon.className = "map-icon";
+    icon.className = map.isExternalCreator
+      ? "map-icon external-map-icon"
+      : "map-icon";
     icon.textContent = "◕";
 
     const link = document.createElement("a");
@@ -109,8 +111,15 @@ function renderMaps(data) {
     link.href = map.url || "#";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.style.color = "inherit";
-    link.style.textDecoration = "none";
+
+    const isSpecialMap = [
+      "SlashP’s Maps",
+      "John Harvey Kellogg’s Maps"
+    ].includes(map.name);
+
+    link.className = isSpecialMap
+      ? "map-link special-map-link"
+      : "map-link";
 
     nameBox.append(icon, link);
     nameTd.append(nameBox);
@@ -231,10 +240,24 @@ function filterMaps() {
     Country: 1,
   };
 
+  // เรียงลำดับ:
+  // 1. High-Volume Map Creator
+  // 2. World
+  // 3. Category อื่น ๆ
   filteredMaps.sort((a, b) => {
+    const isHighVolumeA =
+      a.category === "High-Volume Map Creator";
+    const isHighVolumeB =
+      b.category === "High-Volume Map Creator";
+
+    // High-Volume Map Creator ขึ้นก่อนเสมอ
+    if (isHighVolumeA && !isHighVolumeB) return -1;
+    if (!isHighVolumeA && isHighVolumeB) return 1;
+
     const categoryA = (a.category || "").trim().toLowerCase();
     const categoryB = (b.category || "").trim().toLowerCase();
 
+    // World ขึ้นก่อน Category อื่น
     if (categoryA === "world" && categoryB !== "world") return -1;
     if (categoryA !== "world" && categoryB === "world") return 1;
 
