@@ -6,7 +6,9 @@ import { indiaMaps } from "./maps/india.js";
 import { australiaMaps } from "./maps/australia.js";
 import { newzealandMaps } from "./maps/new zealand.js";
 import { paraguayMaps } from "./maps/paraguay.js";
+import { usaMaps } from "./maps/usa.js";
 import { special_person } from "./maps/special_person.js";
+
 
 export const maps = [
   ...thailandMaps,
@@ -17,6 +19,7 @@ export const maps = [
   ...australiaMaps,
   ...newzealandMaps,
   ...paraguayMaps,
+  ...usaMaps,
   ...special_person
   
 ];

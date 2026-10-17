@@ -16,6 +16,7 @@ export const paraguayMaps = [
     country: "Paraguay",
     url: "https://www.geoguessr.com/maps/6921f4761744c5356b09f1bd"
   },
+
   
 
 ];

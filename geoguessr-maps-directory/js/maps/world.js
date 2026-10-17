@@ -150,6 +150,15 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/5cd30a0d17e6fc441ceda867"
   },
+
+  {
+    name: "An Extraordinary Road",
+    locations: 33708,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6650bf3f10696353ac358f9b"
+  },
   
   {
     name: "Gen 3 World",
