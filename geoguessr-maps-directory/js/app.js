@@ -142,6 +142,17 @@ function filterMaps() {
     );
   });
 
+   // เรียง Category: World ขึ้นก่อน Country
+  const categoryOrder = {
+    World: 0,
+    Country: 1,
+  };
+
+  filteredMaps.sort((a, b) => {
+    return (categoryOrder[a.category] ?? 99) -
+           (categoryOrder[b.category] ?? 99);
+  });
+
   renderMaps(filteredMaps);
 }
 
