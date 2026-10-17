@@ -30,6 +30,14 @@ export const japanMaps = [
     continent: "Asia",
     country: "Japan",
     url: "https://www.geoguessr.com/maps/631a309ba54a618fca31960a"
-  }
+  },
+  {
+    name: "AI gen - Japan",
+    locations: 102274,
+    category: "Country",
+    continent: "Asia",
+    country: "Japan",
+    url: "https://www.geoguessr.com/maps/671153397433ad4314e26533"
+  },
 
 ];
