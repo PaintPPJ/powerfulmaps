@@ -4,11 +4,83 @@ const searchInput = document.getElementById("searchInput");
 const minLocations = document.getElementById("minLocations");
 const categoryFilter = document.getElementById("categoryFilter");
 const emptyState = document.getElementById("emptyState");
+const continentFilter = document.getElementById("continentFilter");
+const countryFilter = document.getElementById("countryFilter");
 
 const mapCount = document.getElementById("mapCount");
 const totalLocations = document.getElementById("totalLocations");
 const totalLikes = document.getElementById("totalLikes");
 const totalPlays = document.getElementById("totalPlays");
+
+
+function populateFilterOptions() {
+  const continents = [...new Set(
+    maps
+      .map(map => map.continent)
+      .filter(value => value && value !== "-")
+  )].sort();
+
+  continentFilter.replaceChildren(new Option("Any", "Any"));
+  countryFilter.replaceChildren(new Option("Any", "Any"));
+
+  continents.forEach(continent => {
+    continentFilter.add(new Option(continent, continent));
+  });
+
+  updateDependentFilters();
+}
+
+function updateDependentFilters() {
+  const category = categoryFilter.value;
+  const selectedContinent = continentFilter.value;
+  const previousCountry = countryFilter.value;
+
+  // World: ล็อก CONTINENT และ COUNTRY
+  if (category === "World") {
+    continentFilter.value = "Any";
+    countryFilter.value = "Any";
+    continentFilter.disabled = true;
+    countryFilter.disabled = true;
+    return;
+  }
+
+  // Continent: เลือกทวีปได้ แต่เลือกประเทศไม่ได้
+  continentFilter.disabled = false;
+
+  if (category === "Continent") {
+    countryFilter.replaceChildren(new Option("Any", "Any"));
+    countryFilter.disabled = true;
+    return;
+  }
+
+  // Any หรือ Country: สร้างรายชื่อประเทศใหม่
+  countryFilter.disabled = false;
+
+  const countries = [...new Set(
+    maps
+      .filter(map =>
+        map.country &&
+        map.country !== "-" &&
+        (
+          selectedContinent === "Any" ||
+          map.continent === selectedContinent
+        )
+      )
+      .map(map => map.country)
+  )].sort();
+
+  countryFilter.replaceChildren(new Option("Any", "Any"));
+
+  countries.forEach(country => {
+    countryFilter.add(new Option(country, country));
+  });
+
+  // คงประเทศที่เลือกไว้ถ้ายังตรงกับทวีป
+  countryFilter.value = countries.includes(previousCountry)
+    ? previousCountry
+    : "Any";
+}
+
 
 // แสดงรายการ Maps
 function renderMaps(data) {
@@ -111,6 +183,8 @@ function filterMaps() {
   const keyword = searchInput.value.trim().toLowerCase();
   const min = Number(minLocations.value) || 0;
   const category = categoryFilter.value;
+  const continent = continentFilter.value;
+  const country = countryFilter.value;
 
   const filteredMaps = maps.filter((map) => {
     // ค้นหาจากชื่อ, URL, code และข้อมูลทุกคอลัมน์
@@ -135,10 +209,18 @@ function filterMaps() {
     const matchesCategory =
       category === "Any" || map.category === category;
 
+    const matchesContinent =
+      continent === "Any" || map.continent === continent;
+
+    const matchesCountry =
+      country === "Any" || map.country === country;
+
     return (
       matchesSearch &&
       matchesLocations &&
-      matchesCategory
+      matchesCategory &&
+      matchesContinent &&
+      matchesCountry
     );
   });
 
@@ -161,15 +243,23 @@ function filterMaps() {
   renderMaps(filteredMaps);
 }
 
-// ค้นหาทันทีเมื่อพิมพ์
 searchInput.addEventListener("input", filterMaps);
-
-// กรองเมื่อเปลี่ยนตัวเลือก
 minLocations.addEventListener("change", filterMaps);
-categoryFilter.addEventListener("change", filterMaps);
 
-// แสดง Maps ทั้งหมดเมื่อเปิดหน้า
-if (typeof maps !== "undefined" && Array.isArray(maps)) {
+categoryFilter.addEventListener("change", () => {
+  updateDependentFilters();
+  filterMaps();
+});
+
+continentFilter.addEventListener("change", () => {
+  updateDependentFilters();
+  filterMaps();
+});
+
+countryFilter.addEventListener("change", filterMaps);
+
+if (Array.isArray(maps)) {
+  populateFilterOptions();
   filterMaps();
 } else {
   console.error("ไม่พบตัวแปร maps จาก js/map.js");
