@@ -1,3 +1,4 @@
+import { maps } from "./map.js";
 const mapList = document.getElementById("mapsList");
 const searchInput = document.getElementById("searchInput");
 const minLocations = document.getElementById("minLocations");
