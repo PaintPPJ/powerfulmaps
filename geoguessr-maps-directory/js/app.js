@@ -149,8 +149,13 @@ function filterMaps() {
   };
 
   filteredMaps.sort((a, b) => {
-    return (categoryOrder[a.category] ?? 99) -
-           (categoryOrder[b.category] ?? 99);
+    const categoryA = (a.category || "").trim().toLowerCase();
+    const categoryB = (b.category || "").trim().toLowerCase();
+
+    if (categoryA === "world" && categoryB !== "world") return -1;
+    if (categoryA !== "world" && categoryB === "world") return 1;
+
+    return 0;
   });
 
   renderMaps(filteredMaps);
