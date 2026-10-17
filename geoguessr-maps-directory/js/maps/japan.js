@@ -17,7 +17,7 @@ export const japanMaps = [
   },
   {
     name: "SimilarABJ",
-    locations: 12000,
+    locations: 120000,
     category: "Country",
     continent: "Asia",
     country: "Japan",
