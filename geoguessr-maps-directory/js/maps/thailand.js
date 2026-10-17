@@ -33,14 +33,6 @@ export const thailandMaps = [
     url: "https://www.geoguessr.com/maps/69629f70974668d49da2a4f9"
   },
   {
-    name: "A Non-Fully Rural Thailand",
-    locations: 63344,
-    category: "Country",
-    continent: "Asia",
-    country: "Thailand",
-    url: "https://www.geoguessr.com/maps/69a579330a2228c5ab8600b0"
-  },
-  {
     name: "Temples of Thailand",
     locations: 10614,
     category: "Country",
