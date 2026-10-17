@@ -47,5 +47,6 @@ export const thailandMaps = [
     continent: "Asia",
     country: "Thailand",
     url: "https://www.geoguessr.com/maps/678602775d591c5382cd2b54"
-  }
+  },
+  
 ];

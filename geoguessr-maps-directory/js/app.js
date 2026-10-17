@@ -31,6 +31,7 @@ function populateFilterOptions() {
 }
 
 function updateDependentFilters() {
+  const min = Number(minLocations.value) || 0;
   const category = categoryFilter.value;
   const selectedContinent = continentFilter.value;
   const previousCountry = countryFilter.value;

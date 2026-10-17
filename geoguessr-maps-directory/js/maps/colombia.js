@@ -4,7 +4,7 @@ export const colombiaMaps = [
     locations: 88222,
     category: "Country",
     continent: "South America",
-    country: "",
+    country: "Colombia",
     url: "https://www.geoguessr.com/maps/63c0a65c985b2d9d2425c6a1"
   },
   {
@@ -12,10 +12,10 @@ export const colombiaMaps = [
     locations: 99113,
     category: "Country",
     continent: "South America",
-    country: "",
+    country: "Colombia",
     url: "https://www.geoguessr.com/maps/68a11e9b0f3df58483ab9137"
   },
-  
+
 
 
 

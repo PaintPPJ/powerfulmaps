@@ -15,6 +15,16 @@ export const newzealandMaps = [
     country: "New Zealand",
     url: "https://www.geoguessr.com/maps/61f3f49330ad7100010d56c2"
   },
+  {
+    name: "A Terminus New Zealand",
+    locations: 2641,
+    category: "Country",
+    continent: "Australia & Oceania",
+    country: "New Zealand",
+    url: "https://www.geoguessr.com/maps/6618ca22b112fa05ab04e0a3"
+  },
+
+
 
 
 ];
