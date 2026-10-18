@@ -49,7 +49,18 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/675ea0ed056b483afcee240c"
   },
+
+  {
+    name: "A M WL World",
+    locations: 50103,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/67546bbc452170d9cc5d712a"
+  },
+
   
+
   {
     name: "Bankz World",
     locations: 74135,
