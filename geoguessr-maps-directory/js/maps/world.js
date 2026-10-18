@@ -76,7 +76,7 @@ export const worldMaps = [
   },
   {
     name: "Teta World (AI Generated)",
-    locations: 110816,
+    locations: 39705,
     category: "World",
     continent: "",
     country: "",
