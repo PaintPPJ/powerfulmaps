@@ -50,6 +50,7 @@ export const japanMaps = [
     url: "https://www.geoguessr.com/maps/6a2558a8102091ac797a5f1"
   },
 
+  
 
   {
     name: "An Extensive Chiba-ken (千葉県)",

@@ -35,5 +35,37 @@ export const southafricaMaps = [
     url: "https://www.geoguessr.com/maps/69b1da709a780796865cd74f"
   },
 
+  {
+    name: "AI gen - Western Cape",
+    locations: 54389,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/6ac3d8a0a553903e0650a55d"
+  },
+
+  {
+    name: "An Extensive Eastern Cape",
+    locations: 46613,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/69b1d9a684238a6f550374b1"
+  },
+
+  {
+    name: "An Extensive Western Cape",
+    locations: 54121,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/69b1d9317177831878559be5"
+  },
+
+
+
 
 ];
