@@ -49,14 +49,77 @@ body {
   width: 20px;
 }
 .page { padding: 0 34px 24px; }
+/* Filters: keep all 6 fields on one row */
 .filters {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) 112px 136px;
-  gap: 24px;
+  grid-template-columns:
+    minmax(0, 2.2fr)
+    minmax(0, 0.8fr)
+    minmax(0, 0.8fr)
+    minmax(0, 0.9fr)
+    minmax(0, 0.9fr)
+    minmax(0, 1fr);
+  gap: 14px;
   align-items: end;
+  width: 100%;
   padding: 21px 0 18px;
   border-bottom: 1px solid var(--line);
+  box-sizing: border-box;
 }
+
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 0;
+  width: 100%;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.filters label > span {
+  color: #a4abb5;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .65px;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.filters select {
+  padding-left: 10px;
+  padding-right: 6px;
+}
+
+/* Medium screens */
+@media (max-width: 1100px) {
+  .filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .filters .search-field {
+    grid-column: 1 / -1;
+  }
+}
+
+
 .filters label { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
 .filters label > span {
   color: #a4abb5;
@@ -101,47 +164,46 @@ th:first-child, td:first-child { padding-left: 14px; }
 
 
 /* Table layout */
-#maps {
+table {
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
 }
 
 /* NAME */
-#maps th:nth-child(1),
-#maps td:nth-child(1) {
-  width: 45%;
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 27%;
 }
 
 /* LOCATIONS */
-#maps th:nth-child(2),
-#maps td:nth-child(2) {
-  width: 8%;
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 10%;
 }
 
 /* CATEGORY */
-#maps th:nth-child(3),
-#maps td:nth-child(3) {
-  width: 10%;
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 12%;
 }
 
-/* SECTION  */
-#maps th:nth-child(3),
-#maps td:nth-child(3) {
-  width: 13%;
+/* SECTION */
+table th:nth-child(4),
+table td:nth-child(4) {
+  width: 19%;
 }
-
 
 /* CONTINENT */
-#maps th:nth-child(4),
-#maps td:nth-child(4) {
-  width: 10%;
+table th:nth-child(5),
+table td:nth-child(5) {
+  width: 14%;
 }
 
 /* COUNTRY */
-#maps th:nth-child(5),
-#maps td:nth-child(5) {
-  width: 10%;
+table th:nth-child(6),
+table td:nth-child(6) {
+  width: 20%;
 }
 
 tbody tr { border-bottom: 1px solid #252930; transition: background .12s ease; }
@@ -207,47 +269,6 @@ tfoot td:first-child { font-family: "Roboto Mono", monospace; }
 .empty-state { padding: 35px 12px; color: var(--muted); text-align: center; }
 .disclaimer { color: #69717c; font-size: 12px; margin: 14px 0 0; }
 
-@media (max-width: 850px) {
-  .topbar { padding: 0 20px; }
-  .page { padding: 0 20px 20px; }
-  .filters { grid-template-columns: minmax(200px, 1fr) 120px; gap: 14px; }
-  .search-field { grid-column: 1 / -1; }
-  table { min-width: 780px; }
-}
-@media (max-width: 480px) {
-  .topbar { height: 60px; }
-  .page { padding: 0 12px 18px; }
-  .filters { grid-template-columns: 1fr 1fr; }
-  .search-field { grid-column: 1 / -1; }
-}
-
-/* Filter layout */
-.filters {
-  display: grid;
-  grid-template-columns: minmax(200px, 1fr) 150px 150px 180px 180px;
-  gap: 16px;
-  align-items: end;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.filters .search-field,
-.filters .filter-field {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  min-width: 0;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.filters .search-field input,
-.filters .filter-field select {
-  width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-}
-
 /* Medium screens */
 @media (max-width: 1100px) {
   .filters {
@@ -259,16 +280,7 @@ tfoot td:first-child { font-family: "Roboto Mono", monospace; }
   }
 }
 
-/* Small screens */
-@media (max-width: 650px) {
-  .filters {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 
-  .filters .search-field {
-    grid-column: 1 / -1;
-  }
-}
 
 .map-link {
   color: #ffffff;

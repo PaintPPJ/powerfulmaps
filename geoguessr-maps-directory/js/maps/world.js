@@ -40,8 +40,6 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/67d2f349ef3227970a279090"
   },
-
-
   {
     name: "Bankz World",
     locations: 74135,

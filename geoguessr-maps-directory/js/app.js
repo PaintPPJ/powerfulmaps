@@ -3,6 +3,7 @@ const mapList = document.getElementById("mapsList");
 const searchInput = document.getElementById("searchInput");
 const minLocations = document.getElementById("minLocations");
 const categoryFilter = document.getElementById("categoryFilter");
+const sectionFilter = document.getElementById("sectionFilter");
 const emptyState = document.getElementById("emptyState");
 const continentFilter = document.getElementById("continentFilter");
 const countryFilter = document.getElementById("countryFilter");
@@ -20,12 +21,38 @@ function populateFilterOptions() {
       .filter(value => value && value !== "-")
   )].sort();
 
+  const categories = [...new Set(
+    maps
+      .map(map => map.category?.trim())
+      .filter(value => value && value !== "-")
+  )].sort((a, b) => a.localeCompare(b));
+
+  categoryFilter.replaceChildren(new Option("Any", "Any"));
+
+  categories.forEach(category => {
+    categoryFilter.add(new Option(category, category));
+  });
+
+  const sections = [...new Set(
+    maps
+      .map(map => map.section?.trim())
+      .filter(value => value && value !== "-")
+  )].sort((a, b) => a.localeCompare(b));
+
   continentFilter.replaceChildren(new Option("Any", "Any"));
   countryFilter.replaceChildren(new Option("Any", "Any"));
 
   continents.forEach(continent => {
     continentFilter.add(new Option(continent, continent));
   });
+
+  if (sectionFilter) {
+    sectionFilter.replaceChildren(new Option("Any", "Any"));
+
+    sections.forEach(section => {
+      sectionFilter.add(new Option(section, section));
+    });
+  }
 
   updateDependentFilters();
 }
@@ -193,8 +220,10 @@ function filterMaps() {
   const keyword = searchInput.value.trim().toLowerCase();
   const min = Number(minLocations.value) || 0;
   const category = categoryFilter.value;
+  const section = sectionFilter?.value || "Any";
   const continent = continentFilter.value;
   const country = countryFilter.value;
+
 
   const filteredMaps = maps.filter((map) => {
     // ค้นหาจากชื่อ, URL, code และข้อมูลทุกคอลัมน์
@@ -219,6 +248,9 @@ function filterMaps() {
     const matchesCategory =
       category === "Any" || map.category === category;
 
+    const matchesSection =
+      section === "Any" || map.section?.trim() === section;
+
     const matchesContinent =
       continent === "Any" || map.continent === continent;
 
@@ -229,6 +261,7 @@ function filterMaps() {
       matchesSearch &&
       matchesLocations &&
       matchesCategory &&
+      matchesSection &&
       matchesContinent &&
       matchesCountry
     );
@@ -269,6 +302,8 @@ function filterMaps() {
 
 searchInput.addEventListener("input", filterMaps);
 minLocations.addEventListener("change", filterMaps);
+
+sectionFilter?.addEventListener("change", filterMaps);
 
 categoryFilter.addEventListener("change", () => {
   updateDependentFilters();
