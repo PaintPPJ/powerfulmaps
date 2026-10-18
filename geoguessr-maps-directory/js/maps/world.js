@@ -150,8 +150,6 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/64919f3c95165ff26469091a"
   },
-
-
   {
     name: "MOVEbarr",
     locations: 98236,

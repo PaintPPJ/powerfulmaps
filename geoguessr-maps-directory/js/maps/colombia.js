@@ -40,8 +40,4 @@ export const colombiaMaps = [
     country: "Colombia",
     url: "https://www.geoguessr.com/maps/661545cec64f4e97b5e63e04"
   },
-
-
-
-
 ];
