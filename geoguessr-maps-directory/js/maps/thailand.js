@@ -8,6 +8,25 @@ export const thailandMaps = [
     country: "Thailand",
     url: "https://www.geoguessr.com/maps/69a579330a2228c5ab8600b0"
   },
+
+  {
+    name: "An Extra-Informed Thailand",
+    locations: 371,
+    category: "Country",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/65eb02532e3bd969263dec1c"
+  },
+
+  {
+    name: "Thailand Major Highway",
+    locations: 2326,
+    category: "Country",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/67d9150696147557bc4716a5"
+  },
+
   {
     name: "A Moving Thailand",
     locations: 1939,
