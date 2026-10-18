@@ -78,6 +78,25 @@ export const thailandMaps = [
     country: "Thailand",
     url: "https://www.geoguessr.com/maps/68332f49e91c310e7f5fda98"
   },
+
+  {
+    name: "A Coastal Thailand",
+    locations: 2066,
+    category: "Country",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/683338ffec565eca6fabc868"
+  },
+
+  {
+    name: "Thai Train Stations",
+    locations: 400,
+    category: "Country",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/66f69aaf6c3c922576f11410"
+  },
+
   {
     name: "Thailand Funny Location Name",
     locations: 178,
@@ -86,6 +105,27 @@ export const thailandMaps = [
     country: "Thailand",
     url: "https://www.geoguessr.com/maps/678602775d591c5382cd2b54"
   },
+
+  {
+    name: "A Pinpointable Bangkok",
+    locations: 1885,
+    category: "Subdivision lv.1",
+    continent: "Asia",
+    section: "Capital",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/65f20026b44b2937c6d61ed6"
+  },
+
+  {
+    name: "IntersectionGuessr - กรุงเทพมหานคร (Bangkok)",
+    locations: 17997,
+    category: "Subdivision lv.1",
+    continent: "Asia",
+    section: "Capital",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/69a2e15fb46a17b02d56ae7a"
+  },
+  
 
   {
     name: "นครสวรรค์ (AI Gen) - Nakhon Sawan",
