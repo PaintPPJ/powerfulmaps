@@ -86,6 +86,87 @@ export const namibiaMaps = [
     url: "https://www.geoguessr.com/maps/68413571d61bab3a7828812e"
   },
 
+  {
+    name: "A Complete Khomas Region, Namibia",
+    locations: 110000,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/684451e8b004eba9dafe680b"
+  },
 
+  {
+    name: "A Complete Kunene Region, Namibia",
+    locations: 110000,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/684442eb461359665832aa47"
+  },
+
+  {
+    name: "A Complete Ohangwena Region, Namibia",
+    locations: 58316,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/684145254016722e8fcb5ab7"
+  },
+
+  {
+    name: "A Complete Omaheke Region, Namibia",
+    locations: 110000,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/6841bb61ba64f32ba9509f47"
+  },
+
+  {
+    name: "A Complete Oshana Region, Namibia",
+    locations: 84889,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/6841495f7a373d6726a56ee8"
+  },
+
+  {
+    name: "A Complete Oshikoto Region, Namibia",
+    locations: 68679,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/6841acee0f2bc6fc81d133fb"
+
+  },
+
+  {
+    name: "A Complete Otjozondjupa Region, Namibia",
+    locations: 110000,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/684458884613596658330d80"
+
+  },
+
+  {
+    name: "A Complete Zambezi Region, Namibia",
+    locations: 70439,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/68412b117a373d6726a4d9df"
+
+  },
 
 ];
