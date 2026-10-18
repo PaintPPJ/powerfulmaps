@@ -28,7 +28,14 @@ export const unitedkingdomMaps = [
     url: "https://www.geoguessr.com/maps/66758cd8bc0e65bae7decc46"
   },
 
-
+  {
+    name: "An Urban United Kingdom",
+    locations: 301342,
+    category: "Country",
+    continent: "Europe",
+    country: "United Kingdom",
+    url: "https://www.geoguessr.com/maps/5e7fb6762ad6cf4d54cedf6f"
+  },
 
   {
     name: "An Urban England",
@@ -38,6 +45,26 @@ export const unitedkingdomMaps = [
     continent: "Europe",
     country: "United Kingdom",
     url: "https://www.geoguessr.com/maps/605e64a57fb12c000182ab20"
+  },
+
+  {
+    name: "AI Generated Northern Ireland",
+    locations: 100000,
+    category: "Country",
+    section: "Constituent Country",
+    continent: "Europe",
+    country: "United Kingdom",
+    url: "https://www.geoguessr.com/maps/64176f3f1516d724f20c22f8"
+  },
+
+  {
+    name: "AI Generated Wales",
+    locations: 100000,
+    category: "Country",
+    section: "Constituent Country",
+    continent: "Europe",
+    country: "United Kingdom",
+    url: "https://www.geoguessr.com/maps/640e414d33089cc5d0eb100d"
   },
 
   {
