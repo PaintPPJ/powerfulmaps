@@ -16,7 +16,17 @@ export const thailandMaps = [
     country: "Thailand",
     url: "https://www.geoguessr.com/maps/681445ae970c7b33d3126c16"
   },
-{
+
+  {
+    name: "A Fair Distribution of Thailand Province",
+    locations: 104707,
+    category: "Country",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/6a3e164fc037d25306f0a006"
+  },
+
+  {
     name: "A Terminus Thailand",
     locations: 50257,
     category: "Country",

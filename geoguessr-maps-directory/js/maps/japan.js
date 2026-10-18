@@ -40,4 +40,44 @@ export const japanMaps = [
     url: "https://www.geoguessr.com/maps/671153397433ad4314e26533"
   },
 
+  {
+    name: "An Extensive Hokkaido (北海道)",
+    locations: 113776,
+    category: "Subdivision lv.1",
+    section: "Prefecture",
+    continent: "Asia",
+    country: "Japan",
+    url: "https://www.geoguessr.com/maps/6a2558a8102091ac797a5f1"
+  },
+
+
+  {
+    name: "An Extensive Chiba-ken (千葉県)",
+    locations: 94037,
+    category: "Subdivision lv.1",
+    section: "Prefecture",
+    continent: "Asia",
+    country: "Japan",
+    url: "https://www.geoguessr.com/maps/6aafd3e12215cfdfd112535f"
+  },
+
+  {
+    name: "An Extensive Aichi-ken (愛知県)",
+    locations: 101625,
+    category: "Subdivision lv.1",
+    section: "Prefecture",
+    continent: "Asia",
+    country: "Japan",
+    url: "https://www.geoguessr.com/maps/6aafe3948e70b9793f947420"
+  },
+
+  {
+    name: "An Extensive Saga-Ken (佐賀県)",
+    locations: 99888,
+    category: "Subdivision lv.1",
+    section: "Prefecture",
+    continent: "Asia",
+    country: "Japan",
+    url: "https://www.geoguessr.com/maps/6ac8c8c12e0d9986dd3efa06"
+  },
 ];

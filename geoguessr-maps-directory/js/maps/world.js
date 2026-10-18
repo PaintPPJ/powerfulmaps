@@ -40,6 +40,16 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/67d2f349ef3227970a279090"
   },
+
+  {
+    name: "A 0maxk World",
+    locations: 14778,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/675ea0ed056b483afcee240c"
+  },
+  
   {
     name: "Bankz World",
     locations: 74135,
@@ -216,14 +226,6 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/669fc42c1d248092df0c5155"
   },
 
-  {
-    name: "A 0maxk World",
-    locations: 14778,
-    category: "World",
-    continent: "",
-    country: "",
-    url: "https://www.geoguessr.com/maps/675ea0ed056b483afcee240c"
-  },
 
   {
     name: "A Treezerik World",
