@@ -100,6 +100,59 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/63c23ec9563ddfcf1b8cd67e"
   },
   {
+    name: "Antibiotic",
+    locations: 108416,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/68bea2cfd3027b2016ce4f74"
+  },
+
+  {
+    name: "An Improved World",
+    locations: 111052,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/5b0a80f8596695b708122809"
+  },
+  {
+    name: "AI Degenerated World",
+    locations: 113185,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6367bcd862285023a1d61e75"
+  },
+
+  {
+    name: "A Rural World",
+    locations: 78820,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/5be0de51fe3a84037ca36447"
+  },
+  {
+    name: "AI Generated World",
+    locations: 135660,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/5dbaf08ed0d2a478444d2e8e"
+  },
+
+  {
+    name: "Terminus",
+    locations: 67350,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/64919f3c95165ff26469091a"
+  },
+
+
+  {
     name: "MOVEbarr",
     locations: 98236,
     category: "World",
@@ -140,6 +193,15 @@ export const worldMaps = [
     continent: "",
     country: "",
     url: "https://www.geoguessr.com/maps/675ea0ed056b483afcee240c"
+  },
+
+  {
+    name: "A Treezerik World",
+    locations: 19200,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6765dde60867cb2c6f52d07a"
   },
 
   {

@@ -5,9 +5,11 @@ import { colombiaMaps } from "./maps/colombia.js";
 import { indiaMaps } from "./maps/india.js";
 import { australiaMaps } from "./maps/australia.js";
 import { newzealandMaps } from "./maps/new zealand.js";
+import { philippinesMaps } from "./maps/philippines.js";
 import { paraguayMaps } from "./maps/paraguay.js";
 import { usaMaps } from "./maps/usa.js";
 import { special_person } from "./maps/special_person.js";
+
 
 
 export const maps = [
@@ -18,8 +20,10 @@ export const maps = [
   ...indiaMaps,
   ...australiaMaps,
   ...newzealandMaps,
+  ...philippinesMaps,
   ...paraguayMaps,
   ...usaMaps,
   ...special_person
+  
   
 ];
