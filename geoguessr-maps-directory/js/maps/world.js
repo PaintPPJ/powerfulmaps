@@ -7,6 +7,31 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/69ec971cef62f1c56c7acac3"
   },
+  {
+    name: "A bagaboiebailey World",
+    locations: 109952,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/66b2004dea47000f62437701"
+  },
+  {
+    name: "Geosevi World",
+    locations: 93156,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/696c23b2897ca69ad8b4782b"
+  },
+
+  {
+    name: "A Gabriel World",
+    locations: 108594,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/68936f2d803c8bc516037679"
+  },
 
   {
     name: "Bankz World",

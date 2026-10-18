@@ -101,7 +101,12 @@ export const russiaMaps = [
     url: "https://www.geoguessr.com/maps/658ae0742255cca9e7f40061"
   },
 
-
-
-
+  {
+    name: "Russia Short Tilted Antenna (Blurred & Unblurred)",
+    locations: 8607,
+    category: "Country",
+    continent: "Europe/Asia",
+    country: "Russia",
+    url: "https://www.geoguessr.com/maps/6728d9bbce35f37acf4460ce"
+  },
 ];
