@@ -32,6 +32,15 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/68936f2d803c8bc516037679"
   },
+  {
+    name: "A Beautiful And Mountainous World",
+    locations: 18275,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/67d2f349ef3227970a279090"
+  },
+
 
   {
     name: "Bankz World",
