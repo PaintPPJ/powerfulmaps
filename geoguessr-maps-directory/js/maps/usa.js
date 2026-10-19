@@ -56,5 +56,15 @@ export const usaMaps = [
   url: "https://www.geoguessr.com/maps/69f3974e3d3c547e376f7d4d"
   },
 
+  {
+  name: "Alaska Gen 4",
+  locations: 24040,
+  category: "Subdivision lv.1",
+  section: "State",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/6acbbdea7f3a741f5127e296"
+  },
+
 
 ];
