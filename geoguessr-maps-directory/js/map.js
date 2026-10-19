@@ -1,4 +1,5 @@
 import { worldMaps } from "./maps/world.js";
+import { argentinaMaps } from "./maps/argentina.js";
 import { thailandMaps } from "./maps/thailand.js";
 import { japanMaps } from "./maps/japan.js";
 import { colombiaMaps } from "./maps/colombia.js";
@@ -10,6 +11,7 @@ import { newzealandMaps } from "./maps/new zealand.js";
 import { russiaMaps } from "./maps/russia.js";
 import { serbiaMaps } from "./maps/serbia.js";
 import { southafricaMaps } from "./maps/south africa.js";
+import { panamaMaps } from "./maps/panama.js";
 import { philippinesMaps } from "./maps/philippines.js";
 import { paraguayMaps } from "./maps/paraguay.js";
 import { usaMaps } from "./maps/usa.js";
@@ -21,12 +23,14 @@ import { groupMaps } from "./maps/group.js";
 
 export const maps = [
   ...thailandMaps,
+  ...argentinaMaps,
   ...japanMaps,
   ...worldMaps,
   ...colombiaMaps,
   ...indiaMaps,
   ...ghanaMaps,
   ...australiaMaps,
+  ...panamaMaps,
   ...namibiaMaps,
   ...newzealandMaps,
   ...philippinesMaps,

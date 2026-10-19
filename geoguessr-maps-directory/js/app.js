@@ -13,6 +13,7 @@ const totalLocations = document.getElementById("totalLocations");
 const totalLikes = document.getElementById("totalLikes");
 const totalPlays = document.getElementById("totalPlays");
 
+const INITIAL_MAP_LIMIT = 50;
 
 function populateFilterOptions() {
   const continents = [...new Set(
@@ -119,7 +120,7 @@ function renderMaps(data) {
 
   mapList.replaceChildren();
 
-  data.forEach((map) => {
+  data.slice(0, INITIAL_MAP_LIMIT).forEach((map) => {
     const tr = document.createElement("tr");
 
     // คอลัมน์ชื่อ Map
