@@ -59,6 +59,103 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/67546bbc452170d9cc5d712a"
   },
 
+  {
+    name: "A Green World",
+    locations: 5000,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6309328f6848d4db355773fd"
+  },
+
+  {
+    name: "Urbanguessr",
+    locations: 19120,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/5b0a4b154559f41f70bba679"
+  },
+
+  {
+    name: "A Stochastic Populated World",
+    locations: 129603,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/61f5026376f7be0001e1eb84"
+  },
+
+  {
+    name: "A Tweaked World",
+    locations: 25644,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/64205c50e014cf9bb1a04e01"
+  },
+
+  {
+    name: "EchoLocations",
+    locations: 5048,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/66a898db5c2c63e291af258f"
+  },
+
+  {
+    name: "Port Authority",
+    locations: 2734,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/5b7c628c1ee0107188657299"
+  },
+
+  {
+    name: "A Bridged World",
+    locations: 45323,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/643414094f0040a1616c3e5f"
+  },
+
+
+
+
+
+  {
+    name: "A Curated Planet",
+    locations: 32000,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/642a97be3c5b7968a1eb1af3"
+  },
+
+  {
+    name: "Masterpieces Of The Earth",
+    locations: 2256,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/64c9d1fea046340237ac216d"
+  },
+  {
+    name: "Aesthetic World",
+    locations: 6325,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/611e70006033f40001dc13d6"
+  },
+
+
+
+
+
   
 
   {
@@ -169,6 +266,15 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/5b0a80f8596695b708122809"
   },
+  {
+    name: "An Improved World (no shitcam)",
+    locations: 106061,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/654be9dc345a6aa922139157"
+  },
+
   {
     name: "AI Degenerated World",
     locations: 113185,
