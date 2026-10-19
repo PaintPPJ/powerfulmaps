@@ -44,6 +44,15 @@ export const ghanaMaps = [
     url: "https://www.geoguessr.com/maps/6a2c7425fb7d1507ea4250df"
   },
 
+  {
+    name: "An Arbitrary Rural Ghana (AARGH)",
+    locations: 3639,
+    category: "Country",
+    continent: "Africa",
+    country: "Ghana",
+    url: "https://www.geoguessr.com/maps/644fd244352c65cb4e46304e"
+  },
+
 
 
 
