@@ -12,9 +12,11 @@ import { newzealandMaps } from "./maps/new zealand.js";
 import { russiaMaps } from "./maps/russia.js";
 import { serbiaMaps } from "./maps/serbia.js";
 import { southafricaMaps } from "./maps/south africa.js";
+import { turkeyMaps } from "./maps/turkey.js";
 import { panamaMaps } from "./maps/panama.js";
 import { philippinesMaps } from "./maps/philippines.js";
 import { paraguayMaps } from "./maps/paraguay.js";
+import { mexicoMaps } from "./maps/mexico.js";
 import { usaMaps } from "./maps/usa.js";
 import { unitedkingdomMaps } from "./maps/united kingdom.js";
 import { special_person } from "./maps/special_person.js";
@@ -37,7 +39,9 @@ export const maps = [
   ...newzealandMaps,
   ...philippinesMaps,
   ...russiaMaps,
+  ...turkeyMaps,
   ...serbiaMaps,
+  ...mexicoMaps,
   ...southafricaMaps,
   ...paraguayMaps,
   ...usaMaps,

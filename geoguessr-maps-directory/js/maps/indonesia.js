@@ -182,6 +182,16 @@ export const indonesiaMaps = [
   },
 
   {
+    name: "Ponorogo (Indonesia , Kab)",
+    locations: 20545,
+    category: "Subdivision lv.2",
+    section: "Kabupaten",
+    continent: "Asia",
+    country: "Indonesia",
+    url: "https://www.geoguessr.com/maps/69542580c8046217922b37fb"
+  },
+
+  {
     name: "Pesisir Selatan (Indonesia , Kab)",
     locations: 21111,
     category: "Subdivision lv.2",
