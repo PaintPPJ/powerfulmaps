@@ -122,9 +122,6 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/698f47b97f653e99dffa50a0"
   },
 
-
-
-
   {
     name: "A Tweaked World",
     locations: 25644,
@@ -160,10 +157,6 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/643414094f0040a1616c3e5f"
   },
-
-
-
-
 
   {
     name: "A Curated Planet",
