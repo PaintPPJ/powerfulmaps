@@ -19,15 +19,6 @@ export const mexicoMaps = [
     },
 
     {
-        name: "An Arbitrary Rural Mexico (AARMX)",
-        locations: 98461,
-        category: "Country",
-        continent: "North America",
-        country: "Mexico",
-        url: "https://www.geoguessr.com/maps/644fc5b6ef64f0dbc532c478"
-    },
-
-    {
         name: "GeoTime Mexico",
         locations: 99162,
         category: "Country",
@@ -50,14 +41,6 @@ export const mexicoMaps = [
         continent: "North America",
         country: "Mexico",
         url: "https://www.geoguessr.com/maps/63f3c95dfe3c3074a04fd618"
-    },
-    {
-        name: "AI gen - Mexico",
-        locations: 110001,
-        category: "Country",
-        continent: "North America",
-        country: "Mexico",
-        url: "https://www.geoguessr.com/maps/63382d2cc00816fde6cd69b6"
     },
 
     {
@@ -98,5 +81,17 @@ export const mexicoMaps = [
         country: "Mexico",
         url: "https://www.geoguessr.com/maps/68d96cd3850f5da5c431cb07"
     },
+
+    {
+        name: "An Extensive Baja California Sur",
+        locations: 11486,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96cd9942f1d48e003b30c"
+    },
+
+
 
 ];
