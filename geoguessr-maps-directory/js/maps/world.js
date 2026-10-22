@@ -87,6 +87,45 @@ export const worldMaps = [
   },
 
   {
+    name: "A Community World",
+    locations: 105000,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/62a44b22040f04bd36e8a914"
+  },
+
+  {
+    name: "A Figsy World",
+    locations: 94726,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6983611e411dbe3f3b2a8c5b"
+  },
+
+  {
+    name: "A Progression World",
+    locations: 93441,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/698f47ed7f653e99dffa51bb"
+  },
+
+  {
+    name: "A Gold Moving World",
+    locations: 96578,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/698f47b97f653e99dffa50a0"
+  },
+
+
+
+
+  {
     name: "A Tweaked World",
     locations: 25644,
     category: "World",
@@ -226,6 +265,17 @@ export const worldMaps = [
   },
 
   {
+    name: "Geoguessr Saturday",
+    locations: 109908,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/661ecb894e20c3a560ef26eb"
+  },
+
+
+
+  {
     name: "A Moving World",
     locations: 100000,
     category: "World",
@@ -257,6 +307,90 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/68bea2cfd3027b2016ce4f74"
   },
+
+  {
+    name: "A Varied World",
+    locations: 103254,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/64ce812adc7614680516ff8c"
+  },
+
+  {
+    name: "A Skewed World",
+    locations: 79133,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6165f7176c26ac00016bca3d"
+  },
+
+  {
+    name: "A Skewed Rural World",
+    locations: 130872,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/65d2fd35db7bd9b93b2a8a1b"
+  },
+
+  {
+    name: "An Updated Skewed World",
+    locations: 134471,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/63ab0ab10e0b6b46cd043011"
+  },
+
+  {
+    name: "A Skewed Stochastic Populated World",
+    locations: 132159,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/62bd39080958bff9fbeff70e"
+  },
+
+  {
+    name: "Hellish",
+    locations: 465,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/696046f453260be345dd8a56"
+  },
+
+  {
+    name: "Hardmode",
+    locations: 12963,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/696c4201a9118a4bda0beae4"
+  },
+
+  {
+    name: "A 50/50 World (NMPZ)",
+    locations: 5339,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/664518443e3ebb19007e34ea"
+  },
+
+  {
+    name: "BRRRRRRRR",
+    locations: 8209,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6760eebfd424c6e85409ced0"
+  },
+
+
+
 
   {
     name: "An Improved World",
