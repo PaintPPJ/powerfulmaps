@@ -21,12 +21,22 @@ export const kazakhstanMaps = [
 
   {
     name: "Spam A-1 Kazakhstan",
-    locations: 17777,
+    locations: 11111,
     category: "Road",
     section: "Trunk Road",
     continent: "Asia",
     country: "Kazakhstan",
     url: "https://www.geoguessr.com/maps/68ee7ca7f20c11cf59ad3548"
+  },
+
+  {
+    name: "Spam A-33 Kazakhstan",
+    locations: 11111,
+    category: "Road",
+    section: "Trunk Road",
+    continent: "Asia",
+    country: "Kazakhstan",
+    url: "https://www.geoguessr.com/maps/68ee5eb20112cff561ecf506"
   },
 
 
