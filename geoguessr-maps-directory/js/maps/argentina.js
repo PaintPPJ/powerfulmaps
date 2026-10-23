@@ -74,4 +74,16 @@ export const argentinaMaps = [
     country: "Argentina",
     url: "https://www.geoguessr.com/maps/6912712c2763884fab2f400b"
   },
+
+  {
+
+    name: "RN 3 Argentina",
+    locations: 13678,
+    category: "Country",
+    section: "Trunk Road",
+    continent: "South America",
+    country: "Argentina",
+    url: "https://www.geoguessr.com/maps/6adbd1af5935729b69a79559"
+  },
+
 ];
