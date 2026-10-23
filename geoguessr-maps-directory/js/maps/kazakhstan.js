@@ -39,6 +39,8 @@ export const kazakhstanMaps = [
     url: "https://www.geoguessr.com/maps/68ee5eb20112cff561ecf506"
   },
 
+  
+
 
 
 
