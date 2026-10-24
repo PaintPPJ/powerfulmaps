@@ -539,7 +539,6 @@ export const worldMaps = [
   {
     name: "Gen 2 World",
     locations: 63344,
-    category: "Country",
     category: "World",
     continent: "",
     country: "",
