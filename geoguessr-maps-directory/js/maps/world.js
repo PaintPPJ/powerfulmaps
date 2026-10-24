@@ -86,6 +86,8 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/61f5026376f7be0001e1eb84"
   },
 
+  
+
   {
     name: "A Community World",
     locations: 105000,
@@ -347,6 +349,24 @@ export const worldMaps = [
   },
 
   {
+    name: "(Actually) AI Generated World - Road Panning",
+    locations: 5000,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6ad2a2f60635ee8456dd2ad0"
+  },
+
+  {
+    name: "(Actually) AI Generated World - Hardest Panning",
+    locations: 5000,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6ad4200f676dad484a1519b6"
+  },
+
+  {
     name: "Hellish",
     locations: 465,
     category: "World",
@@ -363,6 +383,16 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/696c4201a9118a4bda0beae4"
   },
+
+  {
+    name: "Bait and Difficult Locs (NMPZ)",
+    locations: 573,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6ad8f309e91d65210a2f21f8"
+  },
+
 
   {
     name: "A 50/50 World (NMPZ)",

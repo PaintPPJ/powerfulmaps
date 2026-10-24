@@ -26,6 +26,16 @@ export const southafricaMaps = [
   },
 
   {
+    name: "Regionguessing Africa",
+    locations: 100000,
+    category: "Country",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/6ac55de7d61782e321dfe15f"
+  },
+
+
+  {
     name: "An Extensive Free State",
     locations: 69968,
     category: "Subdivision lv.1",
