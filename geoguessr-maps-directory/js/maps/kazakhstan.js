@@ -59,7 +59,47 @@ export const kazakhstanMaps = [
     url: "https://www.geoguessr.com/maps/68ed803e1b6774ea8b9a23c6"
   },
 
+  {
+    name: " Spam A-27 Kazakhstan",
+    locations: 5555,
+    category: "Road",
+    section: "Trunk Road",
+    continent: "Asia",
+    country: "Kazakhstan",
+    url: "https://www.geoguessr.com/maps/68ed7bd8246e338f77e4ea1f"
+  },
 
+  {
+    name: " Spam P-87 Kazakhstan",
+    locations: 5555,
+    category: "Road",
+    section: "Trunk Road",
+    continent: "Asia",
+    country: "Kazakhstan",
+    url: "https://www.geoguessr.com/maps/68ee5a350112cff561ece20b"
+  },
+
+  {
+    name: " Spam R-114/P-114 Kazakhstan",
+    locations: 5555,
+    category: "Road",
+    section: "Trunk Road",
+    continent: "Asia",
+    country: "Kazakhstan",
+    url: "https://www.geoguessr.com/maps/68ee8421a610dbca5b7e1cdb"
+  },
+
+  {
+    name: " Spam A-28/R-103 Kazakhstan",
+    locations: 5555,
+    category: "Road",
+    section: "Trunk Road",
+    continent: "Asia",
+    country: "Kazakhstan",
+    url: "https://www.geoguessr.com/maps/68ed79726850fbf63b85d786"
+  },
+
+   
   
 
 

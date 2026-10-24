@@ -66,5 +66,7 @@ export const usaMaps = [
   url: "https://www.geoguessr.com/maps/6acbbdea7f3a741f5127e296"
   },
 
+  
+
 
 ];
