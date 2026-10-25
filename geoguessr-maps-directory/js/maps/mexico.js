@@ -101,6 +101,25 @@ export const mexicoMaps = [
         url: "https://www.geoguessr.com/maps/68d96cd9942f1d48e003b30c"
     },
 
+    {
+        name: "AI Gen - Guerrero (Mexico)",
+        locations: 54962,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/683ea7ebd7782fb1af1f813b"
+    },
+
+    {
+        name: "AI Gen - Chiapas (Mexico)",
+        locations: 96432,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68a9d594066c0a9a0d59f8aa"
+    },
 
 
 ];
