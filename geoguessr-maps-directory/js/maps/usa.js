@@ -66,6 +66,17 @@ export const usaMaps = [
   url: "https://www.geoguessr.com/maps/6acbbdea7f3a741f5127e296"
   },
 
+  {
+  name: "All USA Area Codes",
+  locations: 24040,
+  category: "Country",
+  section: "Meta Practice",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/67e82e632856456e886c2e6e"
+  },
+
+
   
 
 
