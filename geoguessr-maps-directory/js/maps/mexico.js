@@ -19,6 +19,15 @@ export const mexicoMaps = [
     },
 
     {
+        name: "An Arbitrary Mexico (Archived)",
+        locations: 124186,
+        category: "Country",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/65d97ed84c7143b93649deb2"
+    },
+
+    {
         name: "GeoTime Mexico",
         locations: 99162,
         category: "Country",
