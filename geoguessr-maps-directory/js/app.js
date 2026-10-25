@@ -15,24 +15,59 @@ const totalPlays = document.getElementById("totalPlays");
 
 const INITIAL_MAP_LIMIT = 50;
 
+
 function populateFilterOptions() {
+  // เก็บค่าที่เลือกไว้ก่อนสร้าง options ใหม่
+  const previousCategory = categoryFilter.value;
+  const previousContinent = continentFilter.value;
+  const previousSection = sectionFilter?.value;
+
   const continents = [...new Set(
     maps
       .map(map => map.continent)
       .filter(value => value && value !== "-")
   )].sort();
 
-  const categories = [...new Set(
-    maps
-      .map(map => map.category?.trim())
-      .filter(value => value && value !== "-")
-  )].sort((a, b) => a.localeCompare(b));
+  
+  const categoryOrder = [
+    "World",
+    "Country",
+    "Continent",
+    "Group of countries",
+    "Two countries",
+    "Subdivision lv.1",
+    "Area code zone",
+    "High-Volume Map Creator"
+  ];
 
-  categoryFilter.replaceChildren(new Option("Any", "Any"));
+    const availableCategories = new Set(
+      maps
+        .map(map => map.category?.trim())
+        .filter(value => value && value !== "-")
+    );
 
-  categories.forEach(category => {
-    categoryFilter.add(new Option(category, category));
-  });
+    const categories = [
+      ...categoryOrder.filter(category =>
+        availableCategories.has(category)
+      ),
+      ...[...availableCategories]
+        .filter(category => !categoryOrder.includes(category))
+        .sort((a, b) => a.localeCompare(b))
+    ];
+
+    categoryFilter.replaceChildren(new Option("Any", "Any"));
+
+    categories.forEach(category => {
+      categoryFilter.add(new Option(category, category));
+    });
+
+
+
+
+  // คืนค่า Category ที่เลือกไว้ หากยังมีอยู่
+  categoryFilter.value = categories.includes(previousCategory)
+    ? previousCategory
+    : "Any";
 
   const sections = [...new Set(
     maps
@@ -47,16 +82,25 @@ function populateFilterOptions() {
     continentFilter.add(new Option(continent, continent));
   });
 
+  continentFilter.value = continents.includes(previousContinent)
+    ? previousContinent
+    : "Any";
+
   if (sectionFilter) {
     sectionFilter.replaceChildren(new Option("Any", "Any"));
 
     sections.forEach(section => {
       sectionFilter.add(new Option(section, section));
     });
+
+    sectionFilter.value = sections.includes(previousSection)
+      ? previousSection
+      : "Any";
   }
 
   updateDependentFilters();
 }
+
 
 function updateDependentFilters() {
   const min = Number(minLocations.value) || 0;
@@ -294,11 +338,7 @@ const categories = [
     .sort((a, b) => a.localeCompare(b))
 ];
 
-categoryFilter.replaceChildren(new Option("Any", "Any"));
 
-categories.forEach(category => {
-  categoryFilter.add(new Option(category, category));
-});
 
   // เรียงลำดับ:
   // 1. High-Volume Map Creator
@@ -324,7 +364,11 @@ categories.forEach(category => {
     return 0;
   });
 
+  console.log("[ก่อน renderMaps]", categoryFilter.value);
+
   renderMaps(filteredMaps);
+
+  console.log("[หลัง renderMaps]", categoryFilter.value);
 }
 
 searchInput.addEventListener("input", filterMaps);
@@ -332,9 +376,14 @@ minLocations.addEventListener("change", filterMaps);
 
 sectionFilter?.addEventListener("change", filterMaps);
 
-categoryFilter.addEventListener("change", () => {
+categoryFilter?.addEventListener("change", () => {
+  console.log("[1] ตอนเลือก:", categoryFilter.value);
+
   updateDependentFilters();
+  console.log("[2] หลัง updateDependentFilters:", categoryFilter.value);
+
   filterMaps();
+  console.log("[3] หลัง filterMaps:", categoryFilter.value);
 });
 
 continentFilter.addEventListener("change", () => {
