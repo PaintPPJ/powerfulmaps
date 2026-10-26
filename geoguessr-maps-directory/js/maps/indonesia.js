@@ -82,6 +82,48 @@ export const indonesiaMaps = [
 
    },
 
+   {
+    name: "An Extensive Nias Island (Pulau Nias)",
+    locations: 15236,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Indonesia",
+    url: "https://www.geoguessr.com/maps/69fcecaf6f7e6ff1bb76c4eb"
+  },
+
+   {
+    name: "AI Gen - Sumatra Island (Updated)",
+    locations: 97147,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Indonesia",
+    url: "https://www.geoguessr.com/maps/6a4f7caa3072a043a488b35d"
+  },
+
+  {
+    name: "AI Gen - Java Island",
+    locations: 80709,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Indonesia",
+    url: "https://www.geoguessr.com/maps/6a50ad898d7e2cd4d6f5d770"
+  },
+
+
+  {
+    name: "AI Gen - Sulawesi Island",
+    locations: 88304,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Indonesia",
+    url: "https://www.geoguessr.com/maps/6a50ab5c17089eab71f95c71"
+  },
+
+
   {
     name: "AI Gen - Sumbawa",
     locations: 53498,
@@ -91,6 +133,9 @@ export const indonesiaMaps = [
     country: "Indonesia",
     url: "https://www.geoguessr.com/maps/6ad743f9d9090aaf8e347e27"
   },
+
+
+
 
   {
     name: " Kampar ( Kab, Indonesia )",
