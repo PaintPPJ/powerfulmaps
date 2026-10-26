@@ -84,6 +84,16 @@ export const philippinesMaps = [
   },
 
   {
+    name: "An Extensive Samar Island",
+    locations: 53717,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/6a89aa82ed364d2544b3a1ae"
+  },
+
+  {
     name: "( Philippines ) AI gen - Mindanao",
     locations: 48888,
     category: "Island name",
