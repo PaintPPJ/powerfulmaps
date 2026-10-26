@@ -40,7 +40,64 @@ export const philippinesMaps = [
     country: "Philippines",
     url: "https://www.geoguessr.com/maps/668e685c89480d41b06d31f5"
   },
+
+
+  {
+    name: "An Extensive Panay Island",
+    locations: 85096,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/6a89a779c44b9b2bfa83645e"
+  },
+
+  {
+    name: "An Extensive Mindoro Island",
+    locations: 39688,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/6adf8db8f3088dda7c2cfb89"
+  },
+
   
+  {
+    name: "An Extensive Negros Island",
+    locations: 70730,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/6a89b174fe61e390b070df97"
+  },
+
+  {
+    name: "An Extensive Bohol Island",
+    locations: 43737,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/6a89855fec46c5f4f9bb5bf0"
+  },
+
+  {
+    name: "( Philippines ) AI gen - Mindanao",
+    locations: 48888,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/69138bf0e932f6452fb2237e"
+  },
+
+
+
+  
+
+
 
 
 ];

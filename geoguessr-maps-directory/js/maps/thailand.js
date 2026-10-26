@@ -206,9 +206,6 @@ export const thailandMaps = [
     url: "https://www.geoguessr.com/maps/6903dfe7440cec24d457d3af"
   },
 
-
-
-
   {
     name: "IntersectionGuessr - ปราจีนบุรี - Prachinburi",
     locations: 11255,
