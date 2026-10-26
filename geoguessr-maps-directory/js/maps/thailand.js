@@ -196,5 +196,31 @@ export const thailandMaps = [
     url: "https://www.geoguessr.com/maps/698a2de08e74a1fb1e72d24e"
   },
 
+  {
+    name: "ปราจีนบุรี (AI Gen)",
+    locations: 20060,
+    category: "Subdivision lv.1",
+    section: "Province",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/6903dfe7440cec24d457d3af"
+  },
+
+
+
+
+  {
+    name: "IntersectionGuessr - ปราจีนบุรี - Prachinburi",
+    locations: 11255,
+    category: "Subdivision lv.1",
+    section: "Province",
+    continent: "Asia",
+    country: "Thailand",
+    url: "https://www.geoguessr.com/maps/697b10ffc500fcc2e3fbba64"
+  },
+
+
+
+
   
 ];
