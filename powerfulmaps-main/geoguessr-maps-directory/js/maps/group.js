@@ -1,7 +1,7 @@
 export const groupMaps = [
     {
     name: "A Balanced Baltic Countries",
-    locations: 75338,
+    locations: 100596,
     category: "Group of countries",
     section: "Baltic",
     continent: "Europe",
