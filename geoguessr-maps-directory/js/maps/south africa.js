@@ -1,0 +1,81 @@
+export const southafricaMaps = [
+
+  {
+    name: "AI Gen - South Africa",
+    locations: 101850,
+    category: "Country",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/670165423f1e732463d0ec76"
+  },
+  {
+    name: "An AI Generated South Africa",
+    locations: 100000,
+    category: "Country",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/663d5ea93e1f20f3d481ae6a"
+  },
+  {
+    name: "A Balanced South Africa",
+    locations: 104993,
+    category: "Country",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/68e2c0daed3df2e627692b0b"
+  },
+
+  {
+    name: "Regionguessing Africa",
+    locations: 100000,
+    category: "Country",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/6ac55de7d61782e321dfe15f"
+  },
+
+
+  {
+    name: "An Extensive Free State",
+    locations: 69968,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/69b1da709a780796865cd74f"
+  },
+
+  {
+    name: "AI gen - Western Cape",
+    locations: 54389,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/6ac3d8a0a553903e0650a55d"
+  },
+
+  {
+    name: "An Extensive Eastern Cape",
+    locations: 46613,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/69b1d9a684238a6f550374b1"
+  },
+
+  {
+    name: "An Extensive Western Cape",
+    locations: 54121,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Africa",
+    country: "South Africa",
+    url: "https://www.geoguessr.com/maps/69b1d9317177831878559be5"
+  },
+
+
+
+
+];
