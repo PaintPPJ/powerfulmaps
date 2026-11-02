@@ -37,12 +37,12 @@ export const uruguayMaps = [
   },
 
   {
-    name: "Uruguay gen 4",
-    locations: 69998,
+    name: "AI Gen - Uruguay",
+    locations: 19546,
     category: "Country",
     continent: "South America",
     country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6ae2a4baa97b576e7499dc2d"
+    url: "https://www.geoguessr.com/maps/639f85acab6e2cee0ce4962c"
   },
 
   {
@@ -53,6 +53,7 @@ export const uruguayMaps = [
     country: "Uruguay",
     url: "https://www.geoguessr.com/maps/6ae2a4baa97b576e7499dc2d"
   },
+
 
   {
     name: "Gen 4 Uruguay",
