@@ -61,7 +61,7 @@ export const groupMaps = [
 
   {
     name: "A Balanced Hungary/Romania",
-    locations: 44144,
+    locations: 99980,
     category: "Two countries",
     section: "Hungary, Romania",
     continent: "Europe",
