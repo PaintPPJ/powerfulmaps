@@ -77,7 +77,7 @@ export const indiaMaps = [
 
   {
     name: "Andrah Pradesh vs Telangana (50k each)",
-    locations: 1000001,
+    locations: 100001,
     category: "Subdivision lv.1 - (50:50)",
     section: "State",
     continent: "Asia",
