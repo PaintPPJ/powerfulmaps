@@ -73,6 +73,41 @@ export const uruguayMaps = [
     url: "https://www.geoguessr.com/maps/6ae2b868912d2943e3842754"
   },
 
+  
+  {
+    name: "An Extensive Artigas",
+    locations: 5178,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Uruguay",
+    url: "https://www.geoguessr.com/maps/6aea5a780a5dba19a9807cbe"
+  },
+
+  {
+    name: "An Extensive Rivera",
+    locations: 9732,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Uruguay",
+    url: "https://www.geoguessr.com/maps/6aea5b640a5dba19a9807e1a"
+  },
+
+  {
+    name: "An Extensive Cerro Largo",
+    locations: 6290,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Uruguay",
+    url: "https://www.geoguessr.com/maps/6aea5c390a5dba19a9807f9b"
+  },
+
+
+
+
+
 
 
 
