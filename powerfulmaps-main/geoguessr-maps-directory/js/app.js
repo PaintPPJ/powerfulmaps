@@ -247,7 +247,8 @@ function filterMaps() {
       (Number(map.locations) || 0) >= min;
 
     const matchesCategory =
-      category === "Any" || map.category === category;
+      category === "Any" ||
+      map.category?.trim() === category;
 
     const matchesSection =
       section === "Any" || map.section?.trim() === section;
@@ -270,40 +271,16 @@ function filterMaps() {
 
    // เรียง Category: World ขึ้นก่อน Country
   
-const categoryOrder = [
-  "World",
-  "Country",
-  "Continent",
-  "Group of countries",
-  "Two countries",
-  "Subdivision lv.1",
-  "Area code zone",
-  "High-Volume Map Creator"
-];
-
-const availableCategories = new Set(
-  maps
-    .map(map => map.category?.trim())
-    .filter(Boolean)
-);
-
-const categories = [
-  ...categoryOrder.filter(category => availableCategories.has(category)),
-  ...[...availableCategories]
-    .filter(category => !categoryOrder.includes(category))
-    .sort((a, b) => a.localeCompare(b))
-];
-
-categoryFilter.replaceChildren(new Option("Any", "Any"));
-
-categories.forEach(category => {
-  categoryFilter.add(new Option(category, category));
-});
 
   // เรียงลำดับ:
   // 1. High-Volume Map Creator
   // 2. World
   // 3. Category อื่น ๆ
+
+
+
+
+
   filteredMaps.sort((a, b) => {
     const isHighVolumeA =
       a.category === "High-Volume Map Creator";
