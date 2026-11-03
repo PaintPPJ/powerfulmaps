@@ -104,6 +104,26 @@ export const uruguayMaps = [
     url: "https://www.geoguessr.com/maps/6aea5c390a5dba19a9807f9b"
   },
 
+  {
+    name: "An Extensive Florida (uy)",
+    locations: 11077,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Uruguay",
+    url: "https://www.geoguessr.com/maps/6aea601e4e030952606ded1c"
+  },
+
+  {
+    name: "An Extensive Canelones",
+    locations: 30899,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Uruguay",
+    url: "https://www.geoguessr.com/maps/6aea63341875e47f3f453c92"
+  },
+
 
 
 
