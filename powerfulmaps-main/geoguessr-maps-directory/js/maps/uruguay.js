@@ -124,6 +124,16 @@ export const uruguayMaps = [
     url: "https://www.geoguessr.com/maps/6aea63341875e47f3f453c92"
   },
 
+  {
+    name: "An Extensive Colonia",
+    locations: 12029,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Uruguay",
+    url: "https://www.geoguessr.com/maps/6aea670c176749e4e075f2f7"
+  },
+
 
 
 
