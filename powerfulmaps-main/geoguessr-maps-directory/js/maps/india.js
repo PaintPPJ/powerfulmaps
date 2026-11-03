@@ -1,5 +1,23 @@
 export const indiaMaps = [
   {
+    name: "Intersectionguessr - India",
+    locations: 109885,
+    category: "Country",
+    continent: "Asia",
+    country: "India",
+    url: "https://www.geoguessr.com/maps/641579c1db4529fd34d78002"
+  },
+
+  {
+    name: "Coupe de la Ligue - India",
+    locations: 109885,
+    category: "Country",
+    continent: "Asia",
+    country: "India",
+    url: "https://www.geoguessr.com/maps/6616333b4e2a0b9d8db96d37"
+  },
+
+  {
     name: "A Balanced AI Generated India",
     locations: 110000,
     category: "Country",
@@ -56,5 +74,16 @@ export const indiaMaps = [
     country: "India",
     url: "https://www.geoguessr.com/maps/696db297fa2bb1192396a72b"
   },
+
+  {
+    name: "Andrah Pradesh vs Telangana (50k each)",
+    locations: 1000001,
+    category: "Subdivision lv.1 - (50:50)",
+    section: "State",
+    continent: "Asia",
+    country: "India",
+    url: "https://www.geoguessr.com/maps/6461942c9a20b5f06ec4e9a8"
+  },
+
 
 ];
