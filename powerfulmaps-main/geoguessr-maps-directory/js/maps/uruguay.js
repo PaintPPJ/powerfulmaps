@@ -38,7 +38,7 @@ export const uruguayMaps = [
 
   {
     name: "Uruguay gen 4",
-    locations: 69998,
+    locations: 72050,
     category: "Country",
     continent: "South America",
     country: "Uruguay",
@@ -48,7 +48,7 @@ export const uruguayMaps = [
 
   {
     name: "Gen 4 Uruguay",
-    locations: 69998,
+    locations: 35037,
     category: "Country",
     continent: "South America",
     country: "Uruguay",
