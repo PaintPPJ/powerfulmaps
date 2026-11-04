@@ -75,73 +75,102 @@ export const uruguayMaps = [
 
   
   {
-    name: "An Extensive Artigas",
-    locations: 5178,
-    category: "Subdivision lv.1",
-    section: "Department",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6aea5a780a5dba19a9807cbe"
+    "name": "An Extensive Artigas",
+    "locations": 5178,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aea5a780a5dba19a9807cbe"
+  },
+  {
+    "name": "An Extensive Canelones",
+    "locations": 30899,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aea63341875e47f3f453c92"
+  },
+  {
+    "name": "An Extensive Cerro Largo",
+    "locations": 6290,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aea5c390a5dba19a9807f9b"
+  },
+  {
+    "name": "An Extensive Colonia",
+    "locations": 12029,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aea670c176749e4e075f2f7"
   },
 
   {
-    name: "An Extensive Rivera",
-    locations: 9732,
-    category: "Subdivision lv.1",
-    section: "Department",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6aea5b640a5dba19a9807e1a"
+    "name": "An Extensive Durazno",
+    "locations": 8503,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aeb282cba07ece483041cbc"
   },
 
   {
-    name: "An Extensive Cerro Largo",
-    locations: 6290,
-    category: "Subdivision lv.1",
-    section: "Department",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6aea5c390a5dba19a9807f9b"
+    "name": "An Extensive Florida (uy)",
+    "locations": 11077,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aea601e4e030952606ded1c"
+  },
+  {
+    "name": "An Extensive Maldonado",
+    "locations": 19141,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aeb1f74e97a14da55e83e6c"
   },
 
   {
-    name: "An Extensive Florida (uy)",
-    locations: 11077,
-    category: "Subdivision lv.1",
-    section: "Department",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6aea601e4e030952606ded1c"
+    "name": "An Extensive Paysandú",
+    "locations": 8132,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aeb23818e050662696b38dd"
   },
 
   {
-    name: "An Extensive Canelones",
-    locations: 30899,
-    category: "Subdivision lv.1",
-    section: "Department",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6aea63341875e47f3f453c92"
-  },
-
-  {
-    name: "An Extensive Colonia",
-    locations: 12029,
-    category: "Subdivision lv.1",
-    section: "Department",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/6aea670c176749e4e075f2f7"
-  },
-
-
-
-
-
-
-
-
-
-
-
+    "name": "An Extensive Rivera",
+    "locations": 9732,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6aea5b640a5dba19a9807e1a"
+  }
 ];
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
