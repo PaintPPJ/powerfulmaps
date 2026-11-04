@@ -103,15 +103,6 @@ export const indonesiaMaps = [
   },
 
   {
-    name: " Kampar ( Kab, Indonesia )",
-    locations: 43356,
-    category: "Subdivision lv.2",
-    section: "Kabupaten",
-    continent: "Asia",
-    country: "Indonesia",
-    url: "https://www.geoguessr.com/maps/6a05c09f0a31ba561b8638e2"
-  },
-  {
 
     name:  "Padang Pariaman (Indonesia , Kab)",
     locations: 21111,
