@@ -19,15 +19,6 @@ export const uruguayMaps = [
   },
 
   {
-    name: "A Balanced Uruguay",
-    locations: 41436,
-    category: "Country",
-    continent: "South America",
-    country: "Uruguay",
-    url: "https://www.geoguessr.com/maps/667ebde51c3e56a2b8db456b"
-  },
-
-  {
     name: "AI Generated Uruguay",
     locations: 45083,
     category: "Country",
