@@ -69,6 +69,16 @@ export const groupMaps = [
     url: "https://www.geoguessr.com/maps/6a602d3ff5645f2a7129a288"
   },
 
+  {
+    name: "A Balanced Norway, Sweden and Finland",
+    locations: 99980,
+    category: "Nordic countries",
+    section: "์Norway, Sweden & Finland",
+    continent: "Europe",
+    country: "",
+    url: "https://www.geoguessr.com/maps/663d475f0e27ae974fc1b820"
+  },
+
 
 
 ];
