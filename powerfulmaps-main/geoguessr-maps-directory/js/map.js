@@ -13,6 +13,7 @@ import { ghanaMaps } from "./maps/ghana.js";
 import { indonesiaMaps } from "./maps/indonesia.js";
 import { indiaMaps } from "./maps/india.js";
 import { australiaMaps } from "./maps/australia.js";
+import { norwayMaps } from "./maps/norway.js";
 import { namibiaMaps } from "./maps/namibia.js";
 import { newzealandMaps } from "./maps/new zealand.js";
 import { russiaMaps } from "./maps/russia.js";
@@ -43,6 +44,7 @@ export const maps = [
   ...japanMaps,
   ...worldMaps,
   ...colombiaMaps,
+  ...norwayMaps,
   ...kazakhstanMaps,
   ...indonesiaMaps,
   ...indiaMaps,
