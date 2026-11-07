@@ -395,3 +395,33 @@ tfoot td:first-child { font-family: "Roboto Mono", monospace; }
     overflow-wrap: anywhere;
   }
 }
+
+
+thead th[data-sort] {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+thead th[data-sort]::after {
+  content: "";
+  display: inline-block;
+  margin-left: 7px;
+  opacity: 0;
+}
+
+thead th[data-sort]:hover {
+  color: #ffb45e;
+}
+
+thead th.sort-asc::after {
+  content: "↑";
+  opacity: 1;
+  color: #ff8a00;
+}
+
+thead th.sort-desc::after {
+  content: "↓";
+  opacity: 1;
+  color: #ff8a00;
+}

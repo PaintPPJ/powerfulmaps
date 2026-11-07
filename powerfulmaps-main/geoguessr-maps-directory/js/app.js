@@ -15,6 +15,12 @@ const totalPlays = document.getElementById("totalPlays");
 
 const INITIAL_MAP_LIMIT = 50;
 
+// Table sorting
+let currentSort = {
+  key: "locations",
+  direction: "desc"
+};
+
 function populateFilterOptions() {
   const continents = [...new Set(
     maps
@@ -216,6 +222,54 @@ function renderMaps(data) {
   }
 }
 
+
+function sortMaps(data) {
+  const getPriority = (map) => {
+    const category = (map.category || "").trim();
+
+    if (category === "High-Volume Map Creator") return 0;
+    if (category === "World") return 1;
+
+    return 2;
+  };
+
+  return data.sort((a, b) => {
+    // Priority: High-Volume > World > Others
+    const priorityDiff = getPriority(a) - getPriority(b);
+
+    if (priorityDiff !== 0) {
+      return priorityDiff;
+    }
+
+    // Sort ตาม Column ที่เลือก
+    const key = currentSort.key;
+
+    let valueA = a[key];
+    let valueB = b[key];
+
+    let result;
+
+    if (key === "locations") {
+      valueA = Number(valueA) || 0;
+      valueB = Number(valueB) || 0;
+
+      result = valueA - valueB;
+    } else {
+      valueA = String(valueA ?? "").trim().toLowerCase();
+      valueB = String(valueB ?? "").trim().toLowerCase();
+
+      result = valueA.localeCompare(valueB);
+    }
+
+    return currentSort.direction === "asc"
+      ? result
+      : -result;
+  });
+}
+
+
+
+
 // กรอง Maps ตาม Search และ Filters
 function filterMaps() {
   const keyword = searchInput.value.trim().toLowerCase();
@@ -269,39 +323,10 @@ function filterMaps() {
     );
   });
 
-   // เรียง Category: World ขึ้นก่อน Country
-  
+// Priority Sort + Column Sort
+sortMaps(filteredMaps);
 
-  // เรียงลำดับ:
-  // 1. High-Volume Map Creator
-  // 2. World
-  // 3. Category อื่น ๆ
-
-
-
-
-
-  filteredMaps.sort((a, b) => {
-    const isHighVolumeA =
-      a.category === "High-Volume Map Creator";
-    const isHighVolumeB =
-      b.category === "High-Volume Map Creator";
-
-    // High-Volume Map Creator ขึ้นก่อนเสมอ
-    if (isHighVolumeA && !isHighVolumeB) return -1;
-    if (!isHighVolumeA && isHighVolumeB) return 1;
-
-    const categoryA = (a.category || "").trim().toLowerCase();
-    const categoryB = (b.category || "").trim().toLowerCase();
-
-    // World ขึ้นก่อน Category อื่น
-    if (categoryA === "world" && categoryB !== "world") return -1;
-    if (categoryA !== "world" && categoryB === "world") return 1;
-
-    return 0;
-  });
-
-  renderMaps(filteredMaps);
+renderMaps(filteredMaps);
 }
 
 searchInput.addEventListener("input", filterMaps);
@@ -320,6 +345,40 @@ continentFilter.addEventListener("change", () => {
 });
 
 countryFilter.addEventListener("change", filterMaps);
+
+
+const sortableHeaders = document.querySelectorAll(
+  "thead th[data-sort]"
+);
+
+sortableHeaders.forEach(header => {
+  header.style.cursor = "pointer";
+
+  header.addEventListener("click", () => {
+    const key = header.dataset.sort;
+
+    if (currentSort.key === key) {
+      currentSort.direction =
+        currentSort.direction === "asc" ? "desc" : "asc";
+    } else {
+      currentSort.key = key;
+      currentSort.direction = "asc";
+    }
+
+    sortableHeaders.forEach(th => {
+      th.classList.remove("sort-asc", "sort-desc");
+    });
+
+    header.classList.add(
+      currentSort.direction === "asc"
+        ? "sort-asc"
+        : "sort-desc"
+    );
+
+    filterMaps();
+  });
+});
+
 
 if (Array.isArray(maps)) {
   populateFilterOptions();
