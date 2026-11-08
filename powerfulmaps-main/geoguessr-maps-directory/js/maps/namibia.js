@@ -1,4 +1,23 @@
 export const namibiaMaps = [
+
+    {
+    name: "IntersectionGuessr - Namibia",
+    locations: 22014,
+    category: "Country",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/683fe12968081afa348719d3"
+    },
+
+    {
+    name: "Coupe de la Ligue - Namibia",
+    locations: 10109,
+    category: "Country",
+    continent: "Africa",
+    country: "Namibia",
+    url: "https://www.geoguessr.com/maps/6909d41ef14c4e0891fd77c2"
+    },
+
     {
     name: "AI Gen Namibia",
     locations: 103010,
@@ -26,14 +45,7 @@ export const namibiaMaps = [
     url: "https://www.geoguessr.com/maps/654791fd590e64ba24b8e2d5"
     },
 
-    {
-    name: "IntersectionGuessr - Namibia",
-    locations: 22014,
-    category: "Country",
-    continent: "Africa",
-    country: "Namibia",
-    url: "https://www.geoguessr.com/maps/683fe12968081afa348719d3"
-    },
+    
 
 
 
