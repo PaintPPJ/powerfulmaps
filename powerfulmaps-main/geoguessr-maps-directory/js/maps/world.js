@@ -161,6 +161,15 @@ export const worldMaps = [
   },
 
   {
+    name: "BorderGuessr",
+    locations: 6083,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6ad02aedc0493f4c5e045603"
+  },
+
+  {
     name: "A Curated Planet",
     locations: 32000,
     category: "World",
