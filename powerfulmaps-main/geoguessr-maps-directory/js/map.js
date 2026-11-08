@@ -6,6 +6,7 @@ import { bangladeshMaps } from "./maps/bangladesh.js";
 import { canadaMaps } from "./maps/canada.js";
 import { denmarkMaps } from "./maps/denmark.js";
 import { thailandMaps } from "./maps/thailand.js";
+import { omanMaps } from "./maps/oman.js";
 import { finlandMaps } from "./maps/finland.js";
 import { japanMaps } from "./maps/japan.js";
 import { colombiaMaps } from "./maps/colombia.js";
@@ -44,6 +45,7 @@ export const maps = [
   ...austriaMaps,
   ...argentinaMaps,
   ...japanMaps,
+  ...omanMaps,
   ...worldMaps,
   ...colombiaMaps,
   ...norwayMaps,
