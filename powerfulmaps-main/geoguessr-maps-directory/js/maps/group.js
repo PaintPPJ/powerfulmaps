@@ -11,7 +11,7 @@ export const groupMaps = [
 
   {
     name: "A Balanced PT/ES/IT/GR/TR/CY",
-    locations: 104707,
+    locations: 106380,
     category: "Group of countries",
     section: "Mediterranean countries",
     continent: "Europe",
