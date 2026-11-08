@@ -348,6 +348,16 @@ export const worldMaps = [
     url: "https://www.geoguessr.com/maps/62bd39080958bff9fbeff70e"
   },
 
+
+  {
+    name: "A Sunset/Sunrise World [WIP]",
+    locations: 68563,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/684a1742ea2e9f1cc57b86d3"
+  },
+
   {
     name: "(Actually) AI Generated World - Road Panning",
     locations: 5000,
@@ -530,7 +540,7 @@ export const worldMaps = [
   
   {
     name: "Gen 3 World",
-    locations: 78348,
+    locations: 91410,
     category: "World",
     continent: "",
     country: "",
