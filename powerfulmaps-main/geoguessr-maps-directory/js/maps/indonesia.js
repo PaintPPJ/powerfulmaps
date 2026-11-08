@@ -1,24 +1,5 @@
 export const indonesiaMaps = [
 
-    {
-        name: "A Balanced Indonesia",
-        locations: 276594,
-        category: "Country",
-        continent: "Asia",
-        country: "Indonesia",
-        url: "https://www.geoguessr.com/maps/680340b9fc69941203399e4a"
-
-    },
-
-    {
-        name: "AI Gen - Indonesia",
-        locations: 108672,
-        category: "Country",
-        continent: "Asia",
-        country: "Indonesia",
-        url: "https://www.geoguessr.com/maps/619086606e5572000185a1db"
-
-    },
 
     {
         name: "IntersectionGuessr - Indonesia",
@@ -39,6 +20,28 @@ export const indonesiaMaps = [
         url: "https://www.geoguessr.com/maps/661633af962c0880ae036028"
 
     },
+
+    {
+        name: "A Balanced Indonesia",
+        locations: 276594,
+        category: "Country",
+        continent: "Asia",
+        country: "Indonesia",
+        url: "https://www.geoguessr.com/maps/680340b9fc69941203399e4a"
+
+    },
+
+    {
+        name: "AI Gen - Indonesia",
+        locations: 108672,
+        category: "Country",
+        continent: "Asia",
+        country: "Indonesia",
+        url: "https://www.geoguessr.com/maps/619086606e5572000185a1db"
+
+    },
+
+    
 
     {
         name: "A Fair Distribution of Provinsi di Indonesia",

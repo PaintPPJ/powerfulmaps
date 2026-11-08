@@ -1,4 +1,22 @@
 export const mexicoMaps = [
+    {
+        name: "IntersectionGuessr - Mexico",
+        locations: 100771,
+        category: "Country",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/60b688467398830001d3a7bb"
+    },
+
+    {
+        name: "Coupe de la Ligue - Mexico",
+        locations: 97802,
+        category: "Country",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/66153c82b63d5c03c1edb560"
+    },
+
 
     {
         name: "AI gen - Mexico",
