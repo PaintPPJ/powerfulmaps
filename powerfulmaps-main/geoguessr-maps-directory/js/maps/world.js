@@ -250,6 +250,15 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/6a1720677a4206a328e0124b"
   },
+
+  {
+    name: "A Gari World",
+    locations: 3604,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/67db88e0ef7552043dbcb9a2"
+  },
   {
     name: "Geoguessr Friday",
     locations: 102720,
@@ -537,6 +546,8 @@ export const worldMaps = [
     country: "",
     url: "https://www.geoguessr.com/maps/6650bf3f10696353ac358f9b"
   },
+
+
   
   {
     name: "Gen 3 World",
