@@ -46,6 +46,8 @@ export const canadaMaps = [
     url: "https://www.geoguessr.com/maps/644fc2e99660e66902e82648"
   },
 
+  
+
 
   {
   name: "Yukon Gen 4",
@@ -55,6 +57,16 @@ export const canadaMaps = [
   continent: "North America",
   country: "Canada",
   url: "https://www.geoguessr.com/maps/6acbe31935138c380ce98723"
+  },
+
+  {
+  name: "AI Gen - Labrador (Update)",
+  locations: 11341,
+  category: "Subdivision lv.1",
+  section: "State",
+  continent: "North America",
+  country: "Canada",
+  url: "https://www.geoguessr.com/maps/6af03afdc52c7f335a9f6798"
   },
 
 
