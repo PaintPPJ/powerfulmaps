@@ -78,4 +78,13 @@ export const australiaMaps = [
     country: "Australia",
     url: "https://www.geoguessr.com/maps/673e7a3c535200ae2e438db3"
   },
+
+  {
+    name: "An Impossible Australia",
+    locations: 385,
+    category: "Country",
+    continent: "Australia & Oceania",
+    country: "Australia",
+    url: "https://www.geoguessr.com/maps/6487fcbfa15b2613ee99e2e0"
+  },
 ];

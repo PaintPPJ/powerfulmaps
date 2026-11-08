@@ -24,6 +24,15 @@ export const newzealandMaps = [
     url: "https://www.geoguessr.com/maps/6618ca22b112fa05ab04e0a3"
   },
 
+  {
+    name: "An Evenly Distributed New Zealand",
+    locations: 60010,
+    category: "Country",
+    continent: "Australia & Oceania",
+    country: "New Zealand",
+    url: "https://www.geoguessr.com/maps/63faff1cdc43ecf63bd02bc1"
+  },
+
 
 
 

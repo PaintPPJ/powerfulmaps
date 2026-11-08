@@ -79,6 +79,16 @@ export const groupMaps = [
     url: "https://www.geoguessr.com/maps/663d475f0e27ae974fc1b820"
   },
 
+  {
+    name: "A Combined NZ and Australia",
+    locations: 50000,
+    category: "Oceania countries",
+    section: "Australia & New Zealand",
+    continent: "Australia & Oceania",
+    country: "",
+    url: "https://www.geoguessr.com/maps/663d475f0e27ae974fc1b820"
+  },
+
 
 
 ];
