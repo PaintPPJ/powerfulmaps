@@ -149,7 +149,23 @@ export const uruguayMaps = [
     "continent": "South America",
     "country": "Uruguay",
     "url": "https://www.geoguessr.com/maps/6aea5b640a5dba19a9807e1a"
+
   }
+
+  {
+    "name": "An Extensive Soriano (uy)",
+    "locations": 9548,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6afb7124845a2730ba24d585"
+
+  }
+
+  
+
+
 ];
 
   
