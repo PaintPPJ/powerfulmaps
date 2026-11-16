@@ -163,7 +163,17 @@ export const uruguayMaps = [
 
   }
 
-  
+  {
+    "name": "An Extensive Rocha",
+    "locations": 10861,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6afb7447e858044f413dd28b"
+
+  }
+
 
 
 ];
