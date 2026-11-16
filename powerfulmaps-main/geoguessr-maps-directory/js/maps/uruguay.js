@@ -150,7 +150,7 @@ export const uruguayMaps = [
     "country": "Uruguay",
     "url": "https://www.geoguessr.com/maps/6aea5b640a5dba19a9807e1a"
 
-  }
+  },
 
   {
     "name": "An Extensive Soriano (uy)",
@@ -161,7 +161,7 @@ export const uruguayMaps = [
     "country": "Uruguay",
     "url": "https://www.geoguessr.com/maps/6afb7124845a2730ba24d585"
 
-  }
+  },
 
   {
     "name": "An Extensive Rocha",
