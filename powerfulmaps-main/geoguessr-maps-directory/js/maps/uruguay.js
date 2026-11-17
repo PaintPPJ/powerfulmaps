@@ -164,6 +164,17 @@ export const uruguayMaps = [
   },
 
   {
+    "name": "An Extensive Tacuarembó",
+    "locations": 9499,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6afc39036b5df01c7164c43a"
+
+  },
+
+  {
     "name": "An Extensive Rocha",
     "locations": 10861,
     "category": "Subdivision lv.1",
