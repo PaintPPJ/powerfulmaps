@@ -153,6 +153,17 @@ export const uruguayMaps = [
   },
 
   {
+    "name": "An Extensive Salto (uy)",
+    "locations": 9546,
+    "category": "Subdivision lv.1",
+    "section": "Department",
+    "continent": "South America",
+    "country": "Uruguay",
+    "url": "https://www.geoguessr.com/maps/6afc42008421ba11df3c178f"
+
+  },
+
+  {
     "name": "An Extensive Soriano (uy)",
     "locations": 9548,
     "category": "Subdivision lv.1",
