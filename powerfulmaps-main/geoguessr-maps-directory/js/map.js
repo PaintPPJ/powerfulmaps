@@ -6,6 +6,7 @@ import { bangladeshMaps } from "./maps/bangladesh.js";
 import { canadaMaps } from "./maps/canada.js";
 import { denmarkMaps } from "./maps/denmark.js";
 import { thailandMaps } from "./maps/thailand.js";
+import { italyMaps } from "./maps/italy.js";
 import { omanMaps } from "./maps/oman.js";
 import { finlandMaps } from "./maps/finland.js";
 import { japanMaps } from "./maps/japan.js";
@@ -21,7 +22,7 @@ import { namibiaMaps } from "./maps/namibia.js";
 import { newzealandMaps } from "./maps/new zealand.js";
 import { russiaMaps } from "./maps/russia.js";
 import { serbiaMaps } from "./maps/serbia.js";
-import { spainMaps } from "./maps/spain.json"
+import { spainMaps } from "./maps/spain.js"
 import { southafricaMaps } from "./maps/south africa.js";
 import { swedenMaps } from "./maps/sweden.js";
 import { turkeyMaps } from "./maps/turkey.js";
@@ -44,6 +45,7 @@ export const maps = [
   ...canadaMaps,
   ...denmarkMaps,
   ...spainMaps,
+  ...italyMaps,
   ...finlandMaps,
   ...austriaMaps,
   ...argentinaMaps,
