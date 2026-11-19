@@ -21,6 +21,7 @@ import { namibiaMaps } from "./maps/namibia.js";
 import { newzealandMaps } from "./maps/new zealand.js";
 import { russiaMaps } from "./maps/russia.js";
 import { serbiaMaps } from "./maps/serbia.js";
+import { spainMaps } from "./maps/spain.json"
 import { southafricaMaps } from "./maps/south africa.js";
 import { swedenMaps } from "./maps/sweden.js";
 import { turkeyMaps } from "./maps/turkey.js";
@@ -42,6 +43,7 @@ export const maps = [
   ...bangladeshMaps,
   ...canadaMaps,
   ...denmarkMaps,
+  ...spainMaps,
   ...finlandMaps,
   ...austriaMaps,
   ...argentinaMaps,
