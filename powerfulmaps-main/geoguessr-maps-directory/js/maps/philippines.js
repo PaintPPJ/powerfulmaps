@@ -130,6 +130,16 @@ export const philippinesMaps = [
   },
 
   {
+    name: "An Extensive Palawan island",
+    locations: 31894,
+    category: "Island name",
+    section: "Island",
+    continent: "Asia",
+    country: "Philippines",
+    url: "https://www.geoguessr.com/maps/6aff006b560bfbee3ecfaf35"
+  },
+
+  {
     name: "An Extensive Samar Island",
     locations: 53717,
     category: "Island name",
