@@ -51,7 +51,7 @@ export const colombiaMaps = [
   },
 
   {
-    name: "An Extensive Bolivar (Colombia)",
+    name: "An Extensive Casanare (Colombia)",
     locations: 24574,
     category: "Subdivision lv.1",
     section: "Department",
