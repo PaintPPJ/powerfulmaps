@@ -47,7 +47,7 @@ export const colombiaMaps = [
     section: "Department",
     continent: "South America",
     country: "Colombia",
-    url: "https://www.geoguessr.com/maps/6acbe31935138c380ce98723"
+    url: "https://www.geoguessr.com/maps/69160c0f9f4bb89317e1aaaa"
   },
 
   {
