@@ -69,6 +69,24 @@ export const worldMaps = [
   },
 
   {
+    name: "A Fair Competitive World",
+    locations: 108884,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/69d82b1fec46520188ffd695"
+  },
+
+  {
+    name: "A Random Mixed World",
+    locations: 107325,
+    category: "World",
+    continent: "",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6ac6756e542f5a103364a93d"
+  },
+
+  {
     name: "Urbanguessr",
     locations: 19120,
     category: "World",
