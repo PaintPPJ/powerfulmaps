@@ -60,6 +60,29 @@ export const colombiaMaps = [
     url: "https://www.geoguessr.com/maps/69170fa0d43e6c35d9a753ed"
   },
 
+
+  {
+    name: "An Extensive Norte de Santander (Colombia)",
+    locations: 39202,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Colombia",
+    url: "https://www.geoguessr.com/maps/6af85ccf8427318215a552f5"
+  },
+
+
+  {
+    name: "An Extensive Valle del Cauca (Colombia)",
+    locations: 106357,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Colombia",
+    url: "https://www.geoguessr.com/maps/68a76076fe6afa7885133b26"
+  },
+
+
   
 
 
