@@ -38,6 +38,16 @@ export const malaysiaMaps = [
   },
 
   {
+    name: "An Extensive Sarawak (Malaysia))",
+    locations: 58585 ,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Asia",
+    country: "Malaysia",
+    url: "https://www.geoguessr.com/maps/68dd58f75d4b34a7c8ba717e"
+  },
+
+  {
     name: "An Extensive Sabah (Malaysia)",
     locations: 62731 ,
     category: "Subdivision lv.1",
