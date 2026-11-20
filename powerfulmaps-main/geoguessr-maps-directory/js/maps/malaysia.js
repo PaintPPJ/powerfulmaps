@@ -29,13 +29,34 @@ export const malaysiaMaps = [
 
   {
     name: "An Extensive Selangor (Malaysia)",
-    locations: 91852,
+    locations: 88490,
     category: "Subdivision lv.1",
     section: "State",
     continent: "Asia",
     country: "Malaysia",
     url: "https://www.geoguessr.com/maps/68dd891ca608758f8999d2f7"
   },
+
+  {
+    name: "An Extensive Sabah (Malaysia)",
+    locations: 62731 ,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Asia",
+    country: "Malaysia",
+    url: "https://www.geoguessr.com/maps/68dd58c0a83fc6a25eab369f"
+  },
+
+  {
+    name: "An Extensive Melaka / Malacca (Malaysia)",
+    locations: 35229,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Asia",
+    country: "Malaysia",
+    url: "https://www.geoguessr.com/maps/68dd916870148320d119de67"
+  },
+
 
 
 ];
