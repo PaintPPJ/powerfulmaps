@@ -41,14 +41,26 @@ export const colombiaMaps = [
     url: "https://www.geoguessr.com/maps/661545cec64f4e97b5e63e04"
   },
   {
-  name: "An Extensive Bolivar (Colombia)",
-  locations: 13028,
-  category: "Subdivision lv.1",
-  section: "Department",
-  continent: "South America",
-  country: "Colombia",
-  url: "https://www.geoguessr.com/maps/6acbe31935138c380ce98723"
+    name: "An Extensive Bolivar (Colombia)",
+    locations: 13028,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Colombia",
+    url: "https://www.geoguessr.com/maps/6acbe31935138c380ce98723"
   },
+
+  {
+    name: "An Extensive Bolivar (Colombia)",
+    locations: 24574,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Colombia",
+    url: "https://www.geoguessr.com/maps/69170fa0d43e6c35d9a753ed"
+  },
+
+  
 
 
 ];
