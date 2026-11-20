@@ -62,6 +62,26 @@ export const colombiaMaps = [
 
 
   {
+    name: "An Extensive Antioquia (Colombia)",
+    locations: 82029,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Colombia",
+    url: "https://www.geoguessr.com/maps/6916488f5f584d182fdfc052"
+  },
+
+  {
+    name: "An Extensive Huila (Colombia)",
+    locations: 30662,
+    category: "Subdivision lv.1",
+    section: "Department",
+    continent: "South America",
+    country: "Colombia",
+    url: "https://www.geoguessr.com/maps/6915fa8d87179d7b6434c748"
+  },
+
+  {
     name: "An Extensive Norte de Santander (Colombia)",
     locations: 39202,
     category: "Subdivision lv.1",
