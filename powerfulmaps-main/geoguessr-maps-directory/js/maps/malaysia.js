@@ -16,5 +16,26 @@ export const malaysiaMaps = [
     country: "Malaysia",
     url: "https://www.geoguessr.com/maps/6af09204904b766c66d78c38"
   },
+  
+  {
+    name: "An Extensive Kedah (Malaysia)",
+    locations: 70236,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Asia",
+    country: "Malaysia",
+    url: "https://www.geoguessr.com/maps/68dd5dfc530a5722e4f22d16"
+  },
+
+  {
+    name: "An Extensive Selangor (Malaysia)",
+    locations: 91852,
+    category: "Subdivision lv.1",
+    section: "State",
+    continent: "Asia",
+    country: "Malaysia",
+    url: "https://www.geoguessr.com/maps/68dd891ca608758f8999d2f7"
+  },
+
 
 ];
