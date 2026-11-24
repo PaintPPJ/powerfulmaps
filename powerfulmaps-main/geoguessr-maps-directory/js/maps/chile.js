@@ -104,7 +104,15 @@ export const chileMaps = [
     url: "https://www.geoguessr.com/maps/69f1f448a66d81c20f5119f5"
   },
 
-
+  {
+    name: "An Extensive Valparaíso (AI Generated)",
+    locations: 76962  ,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "South America",
+    country: "Chile",
+    url: "https://www.geoguessr.com/maps/68c8398dee2a8aa559e12443"
+  },
 
 
 ];
