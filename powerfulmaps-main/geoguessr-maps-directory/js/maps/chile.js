@@ -83,6 +83,16 @@ export const chileMaps = [
     url: "https://www.geoguessr.com/maps/69f1efe0a877dd248ff0a254"
   },
 
+  {
+    name: "An Extensive Atacama (Generated)",
+    locations: 55770,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "South America",
+    country: "Chile",
+    url: "https://www.geoguessr.com/maps/68c82e88ee2a8aa559e0ed2c"
+  },
+
 
 
 
