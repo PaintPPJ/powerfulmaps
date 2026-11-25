@@ -29,7 +29,7 @@ export const mexicoMaps = [
 
     {
         name: "An Arbitrary Rural Mexico (AARMX)",
-        locations: 98461,
+        locations: 102682,
         category: "Country",
         continent: "North America",
         country: "Mexico",
