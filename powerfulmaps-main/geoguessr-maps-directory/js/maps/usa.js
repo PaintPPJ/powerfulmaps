@@ -68,6 +68,16 @@ export const usaMaps = [
   url: "https://www.geoguessr.com/maps/6b0514eec156df3ce2705e57"
   },
 
+  {
+  name: "707/369 California area code zone (USA)",
+  locations: 35042,
+  category: "Area code zone",
+  section: "",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/6acc014131527f4857e8fda8"
+  },
+
 
   {
   name: "442,760 California area code zone (USA)",
