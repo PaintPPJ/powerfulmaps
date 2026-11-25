@@ -45,6 +45,27 @@ export const usaMaps = [
   country: "United States of America",
   url: "https://www.geoguessr.com/maps/69e76ba1da312b520d9f5e6a"
   },
+  
+  {
+  name: "757 southeastern Virginia area code zone (USA)",
+  locations: 91680,
+  category: "Area code zone",
+  section: "",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/6b06f639c11a42ce41390142"
+  },
+
+  {
+  name: "305/786 Miami-Dade County area code zone (USA)",
+  locations: 55905,
+  category: "Area code zone",
+  section: "",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/6972504ca86b070d71f56e95"
+  },
+
 
 
 
