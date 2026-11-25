@@ -170,6 +170,16 @@ export const mexicoMaps = [
         url: "https://www.geoguessr.com/maps/68d96ce1ec1174c8f5310087"
     },
 
+    {
+        name: "AI Gen - Campeche (Mexico)",
+        locations: 43255,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/685aa2ad8c4f3fa349e0f82f"
+    },
+
 
 
 

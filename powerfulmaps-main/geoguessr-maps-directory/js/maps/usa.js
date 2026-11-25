@@ -46,6 +46,8 @@ export const usaMaps = [
   url: "https://www.geoguessr.com/maps/69e76ba1da312b520d9f5e6a"
   },
 
+
+
   {
   name: "318 - Lousiana area code zone (USA)",
   locations: 75338,
@@ -54,6 +56,37 @@ export const usaMaps = [
   continent: "North America",
   country: "United States of America",
   url: "https://www.geoguessr.com/maps/69f3974e3d3c547e376f7d4d"
+  },
+
+  {
+  name: "559 central California area zone (USA)",
+  locations: 89305,
+  category: "Area code zone",
+  section: "",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/6b0514eec156df3ce2705e57"
+  },
+
+
+  {
+  name: "442,760 California area code zone (USA)",
+  locations: 104977,
+  category: "Area code zone",
+  section: "",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/6b052033497c29e562cb3468"
+  },
+
+  {
+  name: "619 - California area code zone (USA)",
+  locations: 75338,
+  category: "Area code zone",
+  section: "",
+  continent: "North America",
+  country: "United States of America",
+  url: "https://www.geoguessr.com/maps/69ea09e48a282c1473f4ffa5"
   },
 
   {
