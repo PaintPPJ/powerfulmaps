@@ -114,5 +114,15 @@ export const chileMaps = [
     url: "https://www.geoguessr.com/maps/68c8398dee2a8aa559e12443"
   },
 
+  {
+    name: "An Extensive O'Higgins (Generated)",
+    locations: 55213   ,
+    category: "Subdivision lv.1",
+    section: "Region",
+    continent: "South America",
+    country: "Chile",
+    url: "https://www.geoguessr.com/maps/69f23afec473e4953cd0e36e"
+  },
+
 
 ];
