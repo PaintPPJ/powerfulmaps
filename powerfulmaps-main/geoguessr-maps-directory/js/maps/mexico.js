@@ -110,6 +110,68 @@ export const mexicoMaps = [
         url: "https://www.geoguessr.com/maps/68d96cd9942f1d48e003b30c"
     },
 
+    {
+        name: "An Extensive Jalisco",
+        locations: 46612,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96dbe9c38c66edccba0b6"
+    },
+
+    {
+        name: "An Extensive Michoacan de Ocampo",
+        locations: 28894,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96e0b942f1d48e003b6c9"
+    },
+
+    {
+        name: "An Extensive Morelos",
+        locations: 8890,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96e15d93bdcc5f19dea21"
+    },
+
+    {
+        name: "An Extensive Nayarit",
+        locations: 8897,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96e1dd93bdcc5f19dea38"
+    },
+
+    {
+        name: "An Extensive Oaxaca",
+        locations: 41558,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96e57d421b53699c70a23"
+    },
+
+    {
+        name: "An Extensive Campeche",
+        locations: 9151,
+        category: "Subdivision lv.1",
+        section: "State",
+        continent: "North America",
+        country: "Mexico",
+        url: "https://www.geoguessr.com/maps/68d96ce1ec1174c8f5310087"
+    },
+
+
+
 
 
 ];
