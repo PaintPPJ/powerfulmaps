@@ -77,13 +77,13 @@ export const portugalMaps = [
   },
 
   {
-    "name": "An Extensive Porto district",
-    "locations": 80814,
+    "name": "An Extensive Braga",
+    "locations": 69774,
     "category": "Subdivision lv.1",
     "section": "District",
     "continent": "Europe",
     "country": "Portugal",
-    "url": "https://www.geoguessr.com/maps/6b073688295dc4a5570a7b85"
+    "url": "https://www.geoguessr.com/maps/6b07ebf6e2412a513447fe07"
 
   },
 
