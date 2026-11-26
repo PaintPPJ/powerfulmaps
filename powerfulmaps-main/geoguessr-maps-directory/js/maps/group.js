@@ -89,6 +89,16 @@ export const groupMaps = [
     url: "https://www.geoguessr.com/maps/663d475f0e27ae974fc1b820"
   },
 
+  {
+    name: "Senegal , Ghana , Nigeria (Mix-up ,Gen 4)",
+    locations: 67262,
+    category: "Three countries",
+    section: "Senegal , Ghana & Nigeria",
+    continent: "Africa",
+    country: "",
+    url: "https://www.geoguessr.com/maps/6a2cebdf1e39ffecc3a1ec2e"
+  },
+
 
 
 ];
