@@ -36,6 +36,15 @@ export const ukraineMaps = [
     },
 
     {
+        name: "An Arbitrary Rural Ukraine (AARUA)",
+        locations: 6898,
+        category: "Country",
+        continent: "Europe",
+        country: "Ukraine",
+        url: "https://www.geoguessr.com/maps/644fd1cb352c65cb4e462e8b"
+    },
+
+    {
         name: "An Extensive Odesa Oblast",
         locations: 16042,
         category: "Subdivision lv.1",
