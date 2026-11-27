@@ -66,6 +66,17 @@ export const portugalMaps = [
   },
 
   {
+    "name": "An Extensive Guarda district",
+    "locations": 48151,
+    "category": "Subdivision lv.1",
+    "section": "District",
+    "continent": "Europe",
+    "country": "Portugal",
+    "url": "https://www.geoguessr.com/maps/6b097c8b7e6f407db7a68e18"
+
+  },
+
+  {
     "name": "An Extensive Porto district",
     "locations": 80814,
     "category": "Subdivision lv.1",
