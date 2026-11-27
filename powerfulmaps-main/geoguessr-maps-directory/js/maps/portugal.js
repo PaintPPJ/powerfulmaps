@@ -55,6 +55,18 @@ export const portugalMaps = [
   },
 
   {
+    "name": "An Extensive Bragana district",
+    "locations": 43824,
+    "category": "Subdivision lv.1",
+    "section": "District",
+    "continent": "Europe",
+    "country": "Portugal",
+    "url": "https://www.geoguessr.com/maps/6b0980a5a83a1ec9d599d3f8"
+
+  },
+
+
+  {
     "name": "An Extensive Lisbon",
     "locations": 72048,
     "category": "Subdivision lv.1",
