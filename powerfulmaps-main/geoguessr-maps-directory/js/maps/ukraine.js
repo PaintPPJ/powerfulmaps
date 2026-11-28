@@ -45,6 +45,16 @@ export const ukraineMaps = [
     },
 
     {
+        name: "An Extensive Dnipropetrovsk Oblast",
+        locations: 31999,
+        category: "Subdivision lv.1",
+        section: "Oblast",
+        continent: "Europe",
+        country: "Ukraine",
+        url: "https://www.geoguessr.com/maps/6b0a98e4a83a1ec9d59cb0b3"
+    },
+
+    {
         name: "An Extensive Odesa Oblast",
         locations: 16042,
         category: "Subdivision lv.1",
@@ -63,6 +73,18 @@ export const ukraineMaps = [
         country: "Ukraine",
         url: "https://www.geoguessr.com/maps/6b09dcd6447ccc5a6b3394787"
     },
+
+    {
+        name: "An Extensive Zaporizhzhia oblast",
+        locations: 12960 ,
+        category: "Subdivision lv.1",
+        section: "Oblast",
+        continent: "Europe",
+        country: "Ukraine",
+        url: "https://www.geoguessr.com/maps/6b0a923fa83a1ec9d59ca12f"
+    },
+
+
     
 
 
